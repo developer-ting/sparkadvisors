@@ -1,0 +1,5 @@
+                body:before {
+                    white-space: pre;
+                    font-family: monospace;
+                    content: "Error: Undefined variable: \"$font_heading_bold\".\A         on line 12 of ./sass/partials/profile.scss\A \A 7:             color: #206396;\A 8:             font-size: 24px;\A 9:             padding-top: 50px;\A 10:             text-align: center;\A 11:             letter-spacing: 1.5px;\A 12:             font-family: $font_heading_bold;\A 13: \A 14:             @include mv-media(max, 767px) {\A 15:                 font-size: 20px;\A 16:                 padding-top: 40px;\A 17:             }";
+                }

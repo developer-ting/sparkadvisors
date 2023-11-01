@@ -1,0 +1,26 @@
+#api_call {
+    padding-top: 70px;
+
+    @include mv-media(max, 767px) {
+        padding-top: 60px;
+    }
+
+    .product {
+        padding: 50px 0 0 0;
+        background-color: #eeeeee;
+
+        @include mv-media(max, 767px) {
+            padding: 40px 0 25px 0;
+        }
+
+        .ifram_section {
+            height: 600px;
+            padding: 0 0 50px 0;
+
+            @include mv-media(max, 767px) {
+                height: 300px;
+                padding: 0 0 20px 0;
+            }
+        }
+    }
+}

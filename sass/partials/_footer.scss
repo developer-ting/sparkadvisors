@@ -1,0 +1,389 @@
+footer {
+    .menu {
+        padding-bottom: 50px;
+        background-color: #212121;
+        @include mv-media(max, 767px) {
+            padding-bottom: 30px;
+        }
+
+        .menu_section {
+            ul {
+                display: flex;
+                padding: 20px 0 0 0;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                @include mv-media(max, 767px) {
+                    display: block;
+                    padding: 20px 0;
+                }
+
+                li {
+                    width: 25%;
+                    padding: 25px;
+                    position: relative;
+
+                    @include mv-media(max, 767px) {
+                        width: 100%;
+                        padding: 8px;
+                    }
+
+                    @include mv-media(768px, 992px) {
+                        width: 50%;
+                        padding: 15px;
+                    }
+
+                    a {
+                        color: #11a9dc;
+                        font-size: 15px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-family: $font_heading_regular;
+                    }
+                    &.hidden_padd_top_mobile{
+                        @include mv-media(max, 767px) {
+                            padding-top: 0;
+                        } 
+                    }
+                    &.hidden_padd_bottom_mobile{
+                        @include mv-media(max, 767px) {
+                            padding-bottom: 0 !important;
+                        } 
+                    }
+
+                    .menu_link {
+                        padding-top: 15px;
+
+                        @include mv-media(max, 767px) {
+                            top: 35px;
+                        }
+
+                        @include mv-media(768px, 992px) {
+                            top: 70px;
+                        }
+
+                        @include mv-media(993px, 1200px) {
+                            top: 70px;
+                        }
+                        &.hidden_padd_top_mobile{
+                            @include mv-media(max, 767px) {
+                                padding-top: 0;
+                            } 
+                        }
+
+                        a {
+                            color: #828383;
+                            font-size: 14px;
+                            display: inherit;
+                            padding-bottom: 8px;
+                            text-transform: capitalize;
+                            font-family: lato_Regular;
+                        }
+                    }
+                    .sub_head_sites{
+                        min-height: 20px;
+                        display: block;
+                        padding-top: 20px;
+                    }
+                    &.padd_link {
+                        @include mv-media(max, 767px) {
+                            padding-bottom: 10px;
+                        }
+                        .sub_head{
+                            min-height: 20px;
+                            display: block;
+                        }
+                        
+                    }
+                }
+            }
+
+            .footer_sub {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                @include mv-media(max, 767px) {
+                    display: inherit;
+                }
+
+                .foorter_form {
+                    .foorter_form_style {
+                        .form-group_footer {
+                            display: flex;
+                            position: relative;
+                            margin-right: 50px;
+                            align-items: center;
+
+                            ::placeholder {
+                                color: #787878 !important;
+                                font-family: $font_heading_lato_black !important;
+                            }
+
+                            :-ms-input-placeholder {
+                                color: #787878 !important;
+                                font-family: $font_heading_lato_black !important;
+                            }
+
+                            ::-ms-input-placeholder {
+                                color: #787878 !important;
+                                font-family: $font_heading_lato_black !important;
+                            }
+
+                            .form-control {
+                                width: 350px;
+                                color: #787878;
+                                margin-bottom: 0;
+                                padding-left: 15px;
+                                border-radius: 100px;
+                                border-bottom: 0;
+                                background-color: #3a3a3a;
+                            }
+
+                            img {
+                                width: 37px;
+                                right: 15px;
+                                height: 18px;
+                                position: absolute;
+                            }
+                        }
+                    }
+                }
+
+                .foorter_logo {
+                    padding-bottom: 20px;
+
+                    img {
+                        @include mv-media(max, 767px) {
+                            width: 110px;
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .Ticker {
+            width: 100%;
+            margin: 0 auto;
+            line-height: 1;
+            margin-top: 10px;
+            padding-left: 25px;
+            @include mv-media(max, 992px) {
+                padding-left: 0;
+            }
+        
+            .marqueeheading {
+              float: left;
+              font-size: 17px;
+              width: 129px;
+              color: #11a9dc;
+              text-transform: uppercase;
+              font-family: "Cinzel_Regular";
+            }
+        
+            .marqueeMessage {
+              float: left;
+              font-size: 16px;
+              width: calc(100% - 134px);
+              margin-left: 5px;
+              padding-top: 5px;
+        
+              p {
+                color: #a3a2a2;
+              }
+            }
+          }
+    }
+
+    .add {
+        background-color: #256395;
+
+        .add_section {
+            width: 90%;
+            margin: auto;
+
+            @include mv-media(max, 1200px) {
+                width: 100%;
+            }
+
+            @include mv-media(1441px, 1920px) {
+                width: 80%;
+            }
+
+            .mumbai_wrapper {
+                display: flex;
+                padding: 60px 0;
+                justify-content: space-between;
+
+                @include mv-media(max, 992px) {
+                    flex-wrap: wrap;
+                    padding: 20px 0;
+                }
+
+                .mumbai_1 {
+                    width: 33.33%;
+                    padding: 0 20px;
+
+                    @include mv-media(max, 767px) {
+                        width: 100%;
+                        padding: 0;
+                    }
+
+                    @include mv-media(768px, 992px) {
+                        width: 50%;
+                    }
+
+                    h6 {
+                        font-size: 17px;
+                        padding-left: 40px;
+                        color: $color-white;
+                        padding-bottom: 10px;
+                        font-family: $font_heading_bold;
+                    }
+
+                    ul {
+                        li {
+                            font-size: 15px;
+                            line-height: 20px;
+                            padding-left: 40px;
+                            position: relative;
+                            color: $color-white;
+                            margin-bottom: 20px;
+                            font-family: $font_lato_heading_regular;
+
+                            img {
+                                left: 0;
+                                top: -5px;
+                                position: absolute;
+                            }
+
+                            a {
+                                color: $color-white;
+                                text-decoration: none;
+
+                                &:hover {
+                                    background-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .head_section {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 50px 0;
+
+                @include mv-media(max, 992px) {
+                    padding: 20px 0;
+                }
+
+                .head_office {
+                    width: 33.33%;
+                    display: flex;
+                    padding: 20px 20px;
+                    //                    align-items: center;
+
+                    @include mv-media(max, 767px) {
+                        width: 100%;
+                        padding: 15px 0;
+                        flex-wrap: wrap;
+                    }
+
+                    @include mv-media(768px, 992px) {
+                        width: 50%;
+                        padding: 15px;
+                        flex-wrap: wrap;
+                    }
+
+                    .head_img {
+                        width: 30%;
+
+                        img {
+                            width: 220px;
+
+                            @include mv-media(max, 992px) {
+                                width: 75px;
+                                margin: auto;
+                                padding-bottom: 20px;
+                            }
+
+                            @include mv-media(1201px, 1440px) {
+                                width: 300px;
+                            }
+                        }
+
+                        h6 {
+                            font-size: 15px;
+                            text-align: center;
+                            color: $color-white;
+                            padding: 10px 0;
+                            text-transform: uppercase;
+                            font-family: $font_heading_bold;
+
+                            @include mv-media(max, 767px) {
+                                padding: 0;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+
+                    .head_text {
+                        width: 70%;
+                        padding-left: 25px;
+
+                        @include mv-media(max, 767px) {
+                            padding-left: 10px;
+                        }
+
+                        @include mv-media(768px, 992px) {
+                            padding-left: 30px;
+                        }
+
+                        ul {
+                            li {
+                                padding-left: 20px;
+                                position: relative;
+                                margin-bottom: 15px;
+
+                                a {
+                                    color: #fff;
+                                    font-size: 14px;
+                                    text-decoration: none;
+                                    font-family: lato_Regular;
+
+                                    .loc {
+                                        top: 0;
+                                        left: -5px;
+                                        position: absolute;
+                                    }
+
+                                    .mail {
+                                        top: 0;
+                                        left: -5px;
+                                        position: absolute;
+                                    }
+                                }
+                            }
+                        }
+
+                        h6 {
+                            font-size: 17px;
+                            color: $color-white;
+                            padding-bottom: 10px;
+                            font-family: $font_heading_bold;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            color: $color-white;
+                            font-family: $font_lato_heading_regular;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

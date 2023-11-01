@@ -1,0 +1,108 @@
+/*	==========================================================================
+	Author: Mvishal Shukla
+	Updated: --/--/--
+	Notes: Hand Coded SCSS.
+	========================================================================== */
+
+@charset "UTF-8";
+
+/*	==========================================================================
+	#Import Setting
+		*modules
+			*functions
+			*variables
+			*mixins
+			*reset
+			*base
+		*partials
+			*header
+			*footer
+	#Demo Code
+	========================================================================== */
+
+@import "modules/functions";
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/reset";
+@import "modules/base";
+
+/*	==========================================================================
+		#Materialize
+	========================================================================== */
+
+@import "vendor/materialize_sass/materialize";
+
+/*	==========================================================================
+		#Partials
+	========================================================================== */
+
+@import "partials/header";
+@import "partials/header_1";
+@import "partials/footer";
+@import "partials/index";
+@import "partials/dashboard";
+@import "partials/profile";
+@import "partials/api_call";
+@import "partials/forgot_user";
+@import "partials/fund_account";
+@import "partials/password_wrong";
+@import "partials/password_update";
+@import "partials/change_password";
+@import "partials/forgot_password";
+@import "partials/regulatory";
+@import "partials/contact";
+@import "partials/zoho-contact";
+@import "partials/terms_condition";
+@import "partials/_about_us";
+@import "partials/careers";
+@import "partials/thank-you";
+@import "partials/privacy_policy";
+/*	==========================================================================
+		#Demo Code
+	========================================================================== */
+/*	==========================================================================
+		#Demo To Create KeyFrame
+	========================================================================== */
+/*  */
+@include keyframes(spin) {
+    0% {
+        @include mv-transform(rotate, 0deg);
+    }
+
+    100% {
+        @include mv-transform(rotate, 360deg);
+    }
+}
+
+p.demo {
+    @include animation(spin 0.65s infinite linear);
+}
+
+/* Placeholder-color first on the browser-prefix */
+input {
+    @include mv-placeholder-color(red);
+}
+
+/*	==========================================================================
+		#Demo code for media query
+	========================================================================== */
+.media {
+    @include mv-media(max, 991px) {
+        color: green;
+    }
+
+    ;
+
+    @include mv-media(min, 992px) {
+        color: greenyellow;
+    }
+
+    ;
+
+    @include mv-media(420px, 450px) {
+        color: red;
+    }
+
+    ;
+    color: darkred;
+}

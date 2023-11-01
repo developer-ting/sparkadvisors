@@ -1,0 +1,264 @@
+#regulatory {
+    padding-top: 70px;
+
+    @include mv-media(max, 767px) {
+        padding-top: 60px;
+    }
+
+    .banner {
+        height: 40vh;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../img/regulatory/banner.jpg);
+
+        .banner_text {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+
+            @include mv-media(max, 992px) {
+                width: 100%;
+            }
+
+            @include mv-media(1201px, 1366px) {
+                width: 57%;
+            }
+
+            @include mv-media(1367px, 1440px) {
+                width: 55%;
+            }
+
+            h5 {
+                font-size: 20px;
+                text-align: center;
+                color: $color-white;
+                font-family: $font_lato_heading_regular;
+            }
+
+            h1 {
+                font-size: 50px;
+                font-weight: 600;
+                text-align: center;
+                position: relative;
+                color: $color-white;
+                letter-spacing: 3px;
+                margin: 15px 0 30px 0;
+                text-transform: uppercase;
+                font-family: $font_heading_regular;
+
+                &:before {
+                    right: 0;
+                    content: '';
+                    width: 50px;
+                    height: 4px;
+                    bottom: -10px;
+                    position: absolute;
+                    background-color: #25a8a5;
+
+                    @include mv-media(max, 992px) {
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+
+                @include mv-media(max, 767px) {
+                    font-size: 30px !important;
+                }
+            }
+
+            ul {
+                text-align: center;
+
+                li {
+                    padding: 0 5px;
+                    display: inline-block;
+
+                    img {
+                        margin-right: 10px;
+                        display: inline-block;
+                    }
+
+                    a {
+                        font-size: 14px;
+                        color: $color-white;
+                        letter-spacing: 3px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-family: $font_heading_regular;
+                    }
+                }
+            }
+        }
+    }
+
+    .membership {
+        background-color: #eeeeee;
+
+        .membership_section {
+            padding: 100px 0 75px 0;
+
+            @include mv-media(max, 767px) {
+                padding: 40px 0 0 0;
+            }
+
+            h2 {
+                margin: 0;
+                font-size: 30px;
+                text-align: center;
+                padding-bottom: 50px;
+                color: $color_primary;
+                font-family: $font_heading_bold;
+            }
+
+            h4 {
+                margin: 0;
+                color: #1f1f1f;
+                font-size: 20px;
+                line-height: 25px;
+                padding: 0 0 25px 0;
+                font-family: $font_lato_heading_regular;
+
+                span {
+                    color: $color_primary;
+                }
+
+                @include mv-media(max, 767px) {
+                    font-size: 16px;
+                }
+            }
+
+            .membership_contant {
+                margin-bottom: 80px;
+                background-color: $color-white;
+                box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.2);
+
+                @include mv-media(max, 767px) {
+                    display: flex;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    white-space: nowrap;
+                    overflow: auto;
+                    margin-bottom: 40px;
+                }
+
+                .membership_contant_wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    //                    border-bottom: 1px solid #dedede;
+
+                    &.membership_contant_wrapper_bg {
+                        background-color: #dedede;
+                    }
+
+                    .membership_1 {
+                        width: 33.33%;
+
+                        &.membership_width_1 {
+                            height: 450px;
+                            border-bottom: 1px solid #dedede;
+
+                            @include mv-media(max, 767px) {
+                                width: 80vw;
+                            }
+                        }
+
+                        &.membership_width_1_hight {
+                            border: 0;
+                            height: auto;
+                        }
+
+                        &.membership_width_2 {
+                            border-left: 1px solid #dedede;
+                            border-right: 1px solid #dedede;
+
+                            @include mv-media(max, 767px) {
+                                width: 80vw;
+                            }
+                        }
+
+                        &.membership_width_1_head {
+                            height: auto;
+                        }
+
+                        &.membership_width_3 {
+                            @include mv-media(max, 767px) {
+                                width: 80vw;
+                            }
+                        }
+
+                        h5 {
+                            margin: 0;
+                            padding: 15px 0 15px 25px;
+                            font-size: 20px;
+                            color: $color_primary;
+                            font-family: $font_heading_bold;
+
+                            @include mv-media(max, 992px) {
+                                font-size: 16px;
+                            }
+
+                            &.h5_heading {
+                                border-left: 1px solid #fff;
+                            }
+                        }
+
+                        h6 {
+                            margin: 0;
+                            height: 90px;
+                            color: #1f1f1f;
+                            font-size: 20px;
+                            padding: 0 0 0 25px;
+                            padding-left: 25px;
+                            display: flex;
+                            align-items: center;
+                            border-bottom: 1px solid #dedede;
+                            //                            font-family: $font_lato_heading_regular;
+
+                            &.h6_heading {
+                                //                                height: 100px;
+                                //                                padding-top: 30px;
+                            }
+
+                            &.bordre_none {
+                                border: 0;
+                            }
+
+                            &.height_flex {
+                                height: 450px;
+                                display: flex;
+                                align-items: center;
+                            }
+
+                            span {
+                                color: $color_primary;
+                            }
+
+                            @include mv-media(max, 767px) {
+                                font-size: 16px;
+                                width: 80vw;
+                            }
+
+                            @include mv-media(768px, 992px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        &.membership_last {
+                            width: 66.66%;
+                        }
+
+                        &.m_color {
+                            background-color: #dedede;
+                        }
+
+                        &.m_padd {}
+                    }
+                }
+            }
+        }
+    }
+}

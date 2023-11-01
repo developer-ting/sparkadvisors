@@ -1,0 +1,5 @@
+                body:before {
+                    white-space: pre;
+                    font-family: monospace;
+                    content: "Error: Undefined mixin 'mv-media'.\A         on line 2 of ./sass/partials/blog-inside.scss, in `mv-media'\A         from line 2 of ./sass/partials/blog-inside.scss\A \A 1: #blog-inside {\A 2:     @include mv-media(max, 767px) {\A 3:         overflow: hidden;\A 4:     }\A 5: \A 6:     .banner_section {\A 7:         position: relative;";
+                }
