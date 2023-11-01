@@ -1,0 +1,52 @@
+//fonts
+@font-face {
+  font-family: PublicSans_Light;
+  src: url(../../fonts/public_sans/PublicSans-Light.ttf);
+}
+
+@font-face {
+  font-family: PublicSans_Reg;
+  src: url(../../fonts/public_sans/PublicSans-Regular.ttf);
+}
+
+$font_heading_light: "PublicSans_Light";
+$font_heading_regular: "PublicSans_Reg";
+
+//colors
+$color_primary: #15253f;
+$color_secondary1: #ddd9d4;
+$color_secondary2: #284f70;
+$color_secondary3: #b5a8ad;
+$color_secondary4: #7d8590;
+$color_highlight: #ff7553;
+
+$color-white: #fff;
+$color-black: #000;
+
+//font sizes class
+
+.hl_title {
+  font-size: 85px;
+  line-height: 90px;
+  font-family: $font_heading_regular;
+}
+.hl_copy_title {
+  font-size: 64px;
+  line-height: 68px;
+  font-family: $font_heading_light;
+}
+.hl_copy_txt {
+  font-size: 32px;
+  line-height: 36px;
+  font-family: $font_heading_light;
+}
+.caption_txt {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: $font_heading_light;
+}
+.body_txt {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font_heading_light;
+}

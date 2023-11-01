@@ -1,0 +1,43 @@
+                @font-face {
+                    font-family: PublicSans_Light;
+                    src: url(../../fonts/public_sans/PublicSans-Light.ttf);
+                }
+
+                @font-face {
+                    font-family: PublicSans_Reg;
+                    src: url(../../fonts/public_sans/PublicSans-Regular.ttf);
+                }
+
+                .hl_title {
+                    font-size: 85px;
+                    line-height: 90px;
+                    font-family: "PublicSans_Reg";
+                }
+
+
+                .hl_copy_title {
+                    font-size: 64px;
+                    line-height: 68px;
+                    font-family: "PublicSans_Light";
+                }
+
+
+                .hl_copy_txt {
+                    font-size: 32px;
+                    line-height: 36px;
+                    font-family: "PublicSans_Light";
+                }
+
+
+                .caption_txt {
+                    font-size: 22px;
+                    line-height: 26px;
+                    font-family: "PublicSans_Light";
+                }
+
+
+                .body_txt {
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-family: "PublicSans_Light";
+                }

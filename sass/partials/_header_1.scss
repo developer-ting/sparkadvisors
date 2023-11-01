@@ -1,6 +1,6 @@
 #head_1 {
   header {
-    height: 70px;
+    // height: 70px;
     display: flex;
     align-items: center;
 
@@ -23,7 +23,9 @@
       justify-content: space-between;
 
       .logo {
-        width: 200px;
+        width: 170px;
+        padding: 15px;
+        padding-right: 0;
 
         @include mv-media(max, 767px) {
           width: 100px;
@@ -107,14 +109,14 @@
           display: flex;
           align-items: center;
 
-          .contact_drop{
+          .contact_drop {
             position: relative;
-            &:hover{
-              .contact_drop_menu{
+            &:hover {
+              .contact_drop_menu {
                 display: block;
               }
             }
-            .contact_drop_menu{
+            .contact_drop_menu {
               top: 15px;
               width: 252px;
               left: -5px;
@@ -122,7 +124,7 @@
               position: absolute;
               display: none;
               background-color: #fff;
-              li{
+              li {
                 padding: 5px 0;
                 display: block;
               }
@@ -134,7 +136,6 @@
               padding: 0 15px;
               display: inline-block;
 
-              
               a {
                 color: #1f1f1f;
                 font-size: 15px;

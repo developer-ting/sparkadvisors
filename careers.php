@@ -11,7 +11,7 @@
 
 <head>
     <?php include("includes/include_css.html") ?>
-    <?php include("includes/header_6.html") ?>
+    <?php include("includes/header_1.html") ?>
 </head>
 
 <body>
@@ -109,8 +109,10 @@
                         <img src="dist/img/careers/icon-img.png" class="img-responsive" alt="">
                     </div>
                     <div class="item">
-                        <div class="para"><span>Aspire for a job that gets you to <br /> do real business from Day One ?</span> </div>
-                        <div class="para"><span>Believe you have an ability to put yourself <br /> in client’s shoes in every aspect of work you do </span>?</div>
+                        <div class="para"><span>Aspire for a job that gets you to <br /> do real business from Day One
+                                ?</span> </div>
+                        <div class="para"><span>Believe you have an ability to put yourself <br /> in client’s shoes in
+                                every aspect of work you do </span>?</div>
                         <div class="para"><span>Fancy blazing a trail ?</span></div>
                     </div>
                 </div>
@@ -128,17 +130,23 @@
                     We believe that with autonomy and freedom comes great responsibility.
                 </div>
                 <div>
-                    if you think you’ll fit the bill, write in to us at <a href="mailto:pwm.careers@sparkcapital.in">pwm.careers@sparkcapital.in</a> <br /> and we’ll be happy to explore avenues for engagement.
+                    if you think you’ll fit the bill, write in to us at <a
+                        href="mailto:pwm.careers@sparkcapital.in">pwm.careers@sparkcapital.in</a> <br /> and we’ll be
+                    happy to explore avenues for engagement.
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="job-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal fade" id="job-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="title">JOB DESCRIPTION</div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting.</p>
                         <div class="title">ROLES</div>
                         <ul>
                             <li>
@@ -148,15 +156,17 @@
                                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </li>
                             <li>
-                                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.</p>
                             </li>
                         </ul>
-<!--
+                        <!--
                         <div class="btn-sec">
                             <a href="javascript:void(0)">APPLY</a>
                         </div>
 -->
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span
+                                class="sr-only">Close</span></button>
                     </div>
                 </div>
             </div>
