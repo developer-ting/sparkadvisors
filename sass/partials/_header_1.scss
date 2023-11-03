@@ -135,6 +135,9 @@
             li {
               padding: 0 15px;
               display: inline-block;
+              @include mv-media(max, 1199px) {
+                padding: 0 10px;
+              }
 
               a {
                 color: #1f1f1f;

@@ -1,12 +1,12 @@
 //fonts
 @font-face {
   font-family: PublicSans_Light;
-  src: url(../../fonts/public_sans/PublicSans-Light.ttf);
+  src: url(../fonts/public_sans/PublicSans-Light.ttf);
 }
 
 @font-face {
   font-family: PublicSans_Reg;
-  src: url(../../fonts/public_sans/PublicSans-Regular.ttf);
+  src: url(../fonts/public_sans/PublicSans-Regular.ttf);
 }
 
 $font_heading_light: "PublicSans_Light";
@@ -29,6 +29,10 @@ $color-black: #000;
   font-size: 85px;
   line-height: 90px;
   font-family: $font_heading_regular;
+  @include mv-media(768px, 992px) {
+    font-size: 65px;
+    line-height: 70px;
+  }
 }
 .hl_copy_title {
   font-size: 64px;
