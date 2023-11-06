@@ -19,36 +19,41 @@
             left: 50%;
             position: absolute;
             transform: translate(-50%, -50%);
+            width: 55%;
 
             @include mv-media(max, 992px) {
                 width: 100%;
             }
 
             @include mv-media(1201px, 1366px) {
-                width: 57%;
+                width: 65%;
             }
 
             @include mv-media(1367px, 1440px) {
-                width: 55%;
+                width: 60%;
             }
 
             h5 {
-                font-size: 20px;
+                // font-size: 20px;
                 text-align: center;
                 color: $color-white;
-                font-family: $font_lato_heading_regular;
+                // font-family: $font_lato_heading_regular;
+                @include mv-media(max, 767px) {
+                    font-size: 16px !important;
+                    line-height: 1.4;
+                }
             }
 
             h1 {
-                font-size: 50px;
-                font-weight: 600;
+                // font-size: 50px;
+                // font-weight: 600;
                 text-align: center;
                 position: relative;
                 color: $color-white;
-                letter-spacing: 3px;
+                // letter-spacing: 3px;
                 margin: 15px 0 30px 0;
                 text-transform: uppercase;
-                font-family: $font_heading_bold;
+                // font-family: $font_heading_bold;
 
                 .blue_line {
                     position: relative;
@@ -68,7 +73,8 @@
                 }
 
                 @include mv-media(max, 767px) {
-                    font-size: 25px !important;
+                    font-size: 30px !important;
+                    line-height: 1.4;
                 }
             }
 
@@ -85,18 +91,18 @@
                     }
 
                     a {
-                        font-size: 14px;
+                        // font-size: 14px;
                         color: $color-white;
-                        letter-spacing: 3px;
+                        // letter-spacing: 3px;
                         text-decoration: none;
                         text-transform: uppercase;
-                        font-family: $font_heading_regular;
+                        // font-family: $font_heading_regular;
                     }
                 }
             }
 
             .lato {
-                font-family: lato_Regular;
+                // font-family: lato_Regular;
             }
         }
     }
@@ -319,9 +325,9 @@
 
                     th {
                         background-color: #dedede;
-                        color: #206396;
-                        font-family: $font_heading_bold;
-                        font-size: 20px;
+                        color: $color_secondary2;
+                        // font-family: $font_heading_bold;
+                        // font-size: 20px;
                         padding: 15px 0 15px 25px;
                         border-right: 1px solid#b6b6b6;
 
@@ -364,7 +370,7 @@
 
                         &:nth-child(2) {
                             cursor: pointer;
-                            color: #226498;
+                            color: $color_secondary2;
                             text-decoration: underline;
                         }
                     }
@@ -405,20 +411,25 @@
                 }
 
                 &:nth-child(2) {
-                    width: 68%;
-
+                    width: 70%;
+                    @include mv-media(max, 1199px) {
+                        width: 68%;
+                    }
                     @include mv-media(max, 767px) {
                         width: 100%;
                     }
                 }
 
                 .para {
-                    font-size: 25px;
+                    // font-size: 25px;
                     color: #fff;
-                    font-family: $font_lato_heading_regular;
+                    // font-family: $font_lato_heading_regular;
                     margin-bottom: 30px;
-                    line-height: 1.4;
-
+                    // line-height: 1.4;
+                    @include mv-media(max, 1199px) {
+                        font-size: 25px;
+                        line-height: 1.3;
+                    }
                     @include mv-media(max, 767px) {
                         font-size: 18px;
                     }
@@ -446,9 +457,9 @@
         padding: 60px 0px;
         background-color: #fff;
         color: #206396;
-        font-family: $font_lato_heading_regular;
+        // font-family: $font_lato_heading_regular;
         text-align: center;
-        font-size: 25px;
+        // font-size: 25px;
         line-height: 1.4;
 
         @include mv-media(max, 767px) {

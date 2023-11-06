@@ -22,28 +22,33 @@
             left: 50%;
             position: absolute;
             transform: translate(-50%, -50%);
+            width: 700px;
 
             @include mv-media(max, 992px) {
                 width: 100%;
             }
 
             h5 {
-                font-size: 20px;
+                // font-size: 20px;
                 text-align: center;
                 color: $color-white;
-                font-family: $font_lato_heading_regular;
+                // font-family: $font_lato_heading_regular;
+                @include mv-media(max, 767px) {
+                    font-size: 16px !important;
+                    line-height: 1.4;
+                }
             }
 
             h1 {
-                font-size: 50px;
-                font-weight: 600;
+                // font-size: 50px;
+                // font-weight: 600;
                 text-align: center;
                 position: relative;
                 color: $color-white;
-                letter-spacing: 3px;
+                // letter-spacing: 3px;
                 margin: 15px 0 30px 0;
                 text-transform: uppercase;
-                font-family: $font_heading_regular;
+                // font-family: $font_heading_regular;
 
                 &:before {
                     right: 0;
@@ -62,6 +67,7 @@
 
                 @include mv-media(max, 767px) {
                     font-size: 30px !important;
+                    line-height: 1.4;
                 }
             }
 
@@ -78,12 +84,12 @@
                     }
 
                     a {
-                        font-size: 14px;
+                        // font-size: 14px;
                         color: $color-white;
-                        letter-spacing: 3px;
+                        // letter-spacing: 3px;
                         text-decoration: none;
                         text-transform: uppercase;
-                        font-family: $font_heading_regular;
+                        // font-family: $font_heading_regular;
                     }
                 }
             }
@@ -101,11 +107,11 @@
             ul {
                 li {
                     color: #000;
-                    font-size: 20px;
-                    list-style: disc;
-                    line-height: 24px;
+                    // font-size: 20px;
+                    // list-style: disc;
+                    // line-height: 24px;
                     padding-bottom: 18px;
-                    font-family: lato_Regular;
+                    // font-family: lato_Regular;
 
                     @include mv-media(max, 767px) {
                         font-size: 17px;
