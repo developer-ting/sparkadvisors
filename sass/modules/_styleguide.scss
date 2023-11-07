@@ -55,7 +55,10 @@ $color-black: #000;
   font-family: $font_heading_light;
 }
 
-
-*{
+* {
   letter-spacing: 0 !important;
+}
+
+.ta_center {
+  text-align: center !important;
 }

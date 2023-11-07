@@ -1,7 +1,7 @@
 footer {
   .menu {
     padding-bottom: 50px;
-    background-color: #212121;
+    background-color: $color-black;
     @include mv-media(max, 767px) {
       padding-bottom: 30px;
     }
@@ -34,7 +34,7 @@ footer {
           }
 
           a {
-            color: #11a9dc;
+            color: $color_secondary3;
             // font-size: 15px;
             text-decoration: none;
             text-transform: uppercase;
@@ -72,7 +72,7 @@ footer {
             }
 
             a {
-              color: #828383;
+              color: $color_secondary1;
               //   font-size: 14px;
               display: inherit;
               padding-bottom: 8px;
