@@ -55,22 +55,22 @@
         text-transform: uppercase;
         // font-family: $font_heading_bold;
 
-        .blue_line {
-          position: relative;
+        // .blue_line {
+        //   position: relative;
 
-          &::before {
-            content: "";
-            width: 50px;
-            height: 4px;
-            bottom: 0px;
-            position: absolute;
-            background-color: #25a8a5;
+        //   &::before {
+        //     content: "";
+        //     width: 50px;
+        //     height: 4px;
+        //     bottom: 0px;
+        //     position: absolute;
+        //     background-color: #25a8a5;
 
-            @include mv-media(max, 767px) {
-              width: 100%;
-            }
-          }
-        }
+        //     @include mv-media(max, 767px) {
+        //       width: 100%;
+        //     }
+        //   }
+        // }
 
         @include mv-media(max, 767px) {
           font-size: 30px !important;
