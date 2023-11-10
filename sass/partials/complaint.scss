@@ -1,0 +1,40 @@
+.complaint {
+  position: relative;
+  padding-top: 70px;
+  iframe {
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .contact_form {
+    padding: 40px 0 60px 0;
+    a {
+      color: #039be5;
+      text-decoration: none;
+      .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: $color_secondary2;
+        color: $color-white;
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

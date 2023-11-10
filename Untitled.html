@@ -1,0 +1,26 @@
+<script>
+  function wfa_pstMesgFrmFom(evt) {
+    if (
+      evt.origin === "https://crm.zoho.in" ||
+      evt.origin === "https://crm.zohopublic.in"
+    ) {
+      var loc_obj = JSON.stringify({
+        origin: window.location.origin,
+        pathname: window.location.pathname,
+        search: window.location.search,
+        hash: window.location.hash,
+      });
+      evt.source.postMessage(
+        "prnt_wnd_pg_lc_rc_frm_prwindow_" + loc_obj,
+        evt.origin
+      );
+    }
+  }
+  window.addEventListener("message", wfa_pstMesgFrmFom, false);
+</script>
+
+<iframe
+  width="610px"
+  height="490px"
+  src="https://crm.zoho.in/crm/WebFormServeServlet?rid=2b21c31b314bc3f8365644cf81d01de5aebe7ac5b6aea6613edb4299c97a02adgid61fb75af36dc15e56323d9f238e95a447d3e79b3554676ce49e9b9e85ee8dd0e"
+></iframe>
