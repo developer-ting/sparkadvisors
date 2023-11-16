@@ -18,7 +18,6 @@
                 font-size: 18px;
                 color: #336696;
                 line-height: 28px;
-                font-family: "Cinzel_Bold";
             }
 
             #myModal .close {

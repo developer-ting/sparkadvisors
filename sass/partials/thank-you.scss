@@ -24,7 +24,7 @@
                 margin: 0;
                 color: #202020;
                 font-size: 40px;
-                font-family: $font_heading_bold;
+                // font-family: $font_heading_bold;
 
                 @include mv-media(max, 767px) {
                     font-size: 30px;
@@ -33,7 +33,7 @@
             p{
                 font-size: 18px;
                 padding-top: 15px;
-                font-family: $font_lato_heading_regular;
+                // font-family: $font_lato_heading_regular;
                 @include mv-media(max, 767px) {
                     font-size: 16px;
                 }

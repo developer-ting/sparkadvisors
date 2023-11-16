@@ -29,7 +29,7 @@
                 letter-spacing: 1.5px;
                 color: #206396;
                 text-align: center;
-                font-family: $font_heading_bold;
+                // font-family: $font_heading_bold;
 
                 @include mv-media(max, 767px) {
                     color: #1f1f1f;
@@ -119,7 +119,7 @@
                     color: #206396;
                     text-align: center;
                     text-transform: uppercase;
-                    font-family: $font_heading_bold;
+                    // font-family: $font_heading_bold;
 
                     @include mv-media(max, 767px) {
                         font-size: 20px;
@@ -149,7 +149,7 @@
                             color: #206396;
                             font-size: 18px;
                             margin-left: 100px;
-                            font-family: $font_heading_bold;
+                            // font-family: $font_heading_bold;
 
                             @include mv-media(max, 767px) {
                                 margin-left: 65px;

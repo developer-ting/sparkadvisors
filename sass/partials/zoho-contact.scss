@@ -26,7 +26,7 @@
                 text-align: center;
                 padding-left: 15px;
                 margin: 15px 0 50px 0;
-                font-family: $font_heading_bold;
+                // font-family: $font_heading_bold;
 
                 @include mv-media(max, 767px) {
                     font-size: 20px !important;

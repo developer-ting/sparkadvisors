@@ -66,7 +66,7 @@ header {
           font-weight: 600;
           color: $color_primary;
           letter-spacing: 1px;
-          font-family: font_heading_bold;
+          // font-family: font_heading_bold;
 
           @include mv-media(max, 767px) {
             font-size: 14px;
@@ -123,7 +123,7 @@ header {
             color: #336696;
             letter-spacing: 1px;
             text-decoration: none;
-            font-family: font_heading_bold;
+            // font-family: font_heading_bold;
 
             img {
               margin-right: 10px;
@@ -469,7 +469,7 @@ header {
         color: #336696;
         letter-spacing: 1px;
         text-decoration: none;
-        font-family: font_heading_bold;
+        // font-family: font_heading_bold;
 
         img {
           margin-right: 15px;

@@ -103,7 +103,7 @@
         text-align: center;
         padding-bottom: 50px;
         color: $color_primary;
-        font-family: $font_heading_bold;
+        // font-family: $font_heading_bold;
       }
 
       h4 {
@@ -112,7 +112,7 @@
         font-size: 20px;
         line-height: 25px;
         padding: 0 0 25px 0;
-        font-family: $font_lato_heading_regular;
+        // font-family: $font_lato_heading_regular;
 
         span {
           color: $color_primary;
@@ -210,7 +210,7 @@
               padding: 15px 0 15px 25px;
               font-size: 20px;
               color: $color_primary;
-              font-family: $font_heading_bold;
+              // font-family: $font_heading_bold;
 
               @include mv-media(max, 992px) {
                 font-size: 16px;
@@ -229,7 +229,7 @@
               // padding: 10px 0 5px 25px;
               padding-left: 25px;
               border-bottom: 1px solid #dedede;
-              font-family: $font_lato_heading_regular;
+              // font-family: $font_lato_heading_regular;
               display: flex;
               align-items: center;
 
@@ -520,7 +520,7 @@ thead{
                 th {
                   background-color: #dedede;
                   color: #206396;
-                  font-family: $font_heading_bold;
+                  // font-family: $font_heading_bold;
                   font-size: 20px;
                   padding: 15px 0 15px 25px;
                   border-right: 1px solid#b6b6b6;
@@ -566,7 +566,7 @@ thead{
 
           .title {
             color: #206396;
-            font-family: $font_heading_bold;
+            // font-family: $font_heading_bold;
             font-size: 16px;
             margin-bottom: 20px;
           }
@@ -650,7 +650,7 @@ thead{
       padding-right: 10px;
       white-space: nowrap;
       color: #206396;
-      font-family: $font_heading_bold;
+      // font-family: $font_heading_bold;
       letter-spacing: 0;
     }
 

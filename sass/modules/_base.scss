@@ -5,7 +5,8 @@ html {
         height: 100%;
         font-size: 16px;
         letter-spacing: 1.5px;
-        font-family: $font_lato_heading_regular;
+        font-family: $font_heading_regular;
+        // font-family: $font_lato_heading_regular;
     }
 }
 
@@ -346,7 +347,7 @@ p {
         text-align: center;
         font-weight: 600;
         text-transform: uppercase;
-        font-family: $font_heading_bold;
+        // font-family: $font_heading_bold;
     }
 
     h2 {
@@ -355,7 +356,7 @@ p {
         font-size: 55px;
         text-align: center;
         text-transform: uppercase;
-        font-family: $font_heading_bold;
+        // font-family: $font_heading_bold;
     }
 }
 
