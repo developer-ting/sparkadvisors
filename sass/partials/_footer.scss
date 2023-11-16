@@ -1,4 +1,7 @@
 footer {
+  font-size: 16px !important;
+  line-height: 20px !important;
+  font-family: $font_heading_light !important;
   .menu {
     padding-bottom: 50px;
     background-color: $color-black;
@@ -34,6 +37,9 @@ footer {
           }
 
           a {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
             color: $color_secondary3;
             // font-size: 15px;
             text-decoration: none;
@@ -72,6 +78,9 @@ footer {
             }
 
             a {
+              font-size: 16px;
+              line-height: 20px;
+              font-family: $font_heading_light;
               color: $color_secondary1;
               //   font-size: 14px;
               display: inherit;
@@ -116,17 +125,14 @@ footer {
 
               ::placeholder {
                 color: #787878 !important;
-                font-family: $font_heading_lato_black !important;
               }
 
               :-ms-input-placeholder {
                 color: #787878 !important;
-                font-family: $font_heading_lato_black !important;
               }
 
               ::-ms-input-placeholder {
                 color: #787878 !important;
-                font-family: $font_heading_lato_black !important;
               }
 
               .form-control {

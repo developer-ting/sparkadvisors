@@ -20,14 +20,14 @@
         <section id="contact" class="contact">
             <div class="banner">
                 <div class="banner_text">
-                    <h5 class="caption_txt">CONNECT WITH US</h5>
-                    <h1 class="hl_copy_title">GET IN TOUCH</h1>
+                    <h5>CONNECT WITH US</h5>
+                    <h1>GET IN TOUCH</h1>
                     <ul>
-                        <li class="body_txt">
+                        <li>
                             <img src="dist/img/regulatory/home.png" class="img-responsive" alt=""><a href="#">HOME
                                 &emsp;></a>
                         </li>
-                        <li class="body_txt"><a href="#">CONTACT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,42 +36,42 @@
                     <div class="row">
                         <div class="col-md-12 no_padd">
                             <div class="contact_form_section">
-                                <h2 class="send_msg hl_copy_txt">SEND MESSAGE</h2>
+                                <h2 class="send_msg">SEND MESSAGE</h2>
                                 <form action="#" method="post" id="contact_page_form" class="contact_page_form">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input type="text" class="form-control body_txt input_width" name="name"
-                                                id="name" placeholder="full name">
+                                            <input type="text" class="form-control input_width" name="name" id="name"
+                                                placeholder="full name">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input type="email" class="form-control body_txt input_width" name="user_id"
+                                            <input type="email" class="form-control input_width" name="user_id"
                                                 id="user_id" placeholder="EMAIL ADDRESS">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input id="subject" type="text" class="form-control body_txt input_width"
+                                            <input id="subject" type="text" class="form-control input_width"
                                                 name="subject" placeholder="SUBJECT">
-                                            <!--                                            <input type="text" class="form-control body_txt" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
+                                            <!--                                            <input type="text" class="form-control" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input id="number" type="number" class="form-control body_txt input_width"
+                                            <input id="number" type="number" class="form-control input_width"
                                                 name="number" placeholder="Mobile Number">
-                                            <!--                                            <input type="text" class="form-control body_txt" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
+                                            <!--                                            <input type="text" class="form-control" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group" colspan="5">
-                                            <textarea class="form-control body_txt" rows="4" name="comment"
+                                            <textarea class="form-control" rows="4" name="comment"
                                                 placeholder="COMMENT"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12 button_section">
-                                        <button type="submit" class="log_in_btn body_txt">SUBMIT</button>
+                                        <button type="submit" class="log_in_btn">SUBMIT</button>
                                     </div>
                                 </form>
                             </div>

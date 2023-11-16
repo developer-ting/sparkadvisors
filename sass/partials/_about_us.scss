@@ -29,70 +29,55 @@
       }
 
       h5 {
-        // font-size: 20px;
+        font-size: 22px;
+        line-height: 26px;
+        font-family: "PublicSans_Light";
         text-align: center;
         color: $color-white;
-        // font-family: $font_lato_heading_regular;
-                @include mv-media(max, 767px) {
-                  font-size: 16px !important;
-                  line-height: 1.4;
-              }
-      }
+        @include mv-media(max, 767px) {
+            font-size: 16px !important;
+            line-height: 1.4;
+        }
+    }
 
-      h1 {
-        // font-size: 50px;
-        // font-weight: 600;
+    h1 {
+        font-size: 64px;
+        line-height: 68px;
+        font-family: $font_heading_light;
         text-align: center;
         position: relative;
         color: $color-white;
-        // letter-spacing: 3px;
         margin: 15px 0 30px 0;
         text-transform: uppercase;
-        // font-family: $font_heading_regular;
-
-        // &:before {
-        //   right: 0;
-        //   content: "";
-        //   width: 50px;
-        //   height: 4px;
-        //   bottom: -10px;
-        //   position: absolute;
-        //   background-color: #25a8a5;
-
-        //   @include mv-media(max, 992px) {
-        //     left: 50%;
-        //     transform: translateX(-50%);
-        //   }
-        // }
 
         @include mv-media(max, 767px) {
-          font-size: 30px !important;
-          line-height: 1.4;
+            font-size: 30px !important;
+            line-height: 1.4;
         }
-      }
+    }
 
-      ul {
+    ul {
         text-align: center;
 
         li {
-          padding: 0 5px;
-          display: inline-block;
-
-          img {
-            margin-right: 10px;
+            padding: 0 5px;
             display: inline-block;
-          }
 
-          a {
-            // font-size: 14px;
-            color: $color-white;
-            // letter-spacing: 3px;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-family: $font_heading_regular;
-          }
+            img {
+                margin-right: 10px;
+                display: inline-block;
+            }
+
+            a {
+                font-size: 16px;
+                line-height: 20px;
+                font-family: $font_heading_light;
+                color: $color-white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
         }
-      }
+    }
     }
   }
 
@@ -107,11 +92,11 @@
     .term_contant_section {
       ul {
         li {
+          font-size: 22px;
+          line-height: 26px;
+          font-family: $font_heading_light;
           color: #000;
-          //   font-size: 20px;
-          //   line-height: 24px;
           padding-bottom: 18px;
-          //   font-family: lato_Regular;
 
           @include mv-media(max, 767px) {
             font-size: 17px;
@@ -133,13 +118,13 @@
       }
 
       h2 {
+        font-size: 64px;
+        line-height: 68px;
+        font-family: $font_heading_light;
         color: $color_secondary2;
-        // font-size: 50px;
-        // font-weight: 600;
         position: relative;
         margin: 15px 0 30px 0;
         display: inline-block;
-        // font-family: $font_heading_regular;
 
         &:before {
           right: 0;
@@ -190,6 +175,9 @@
           }
 
           h5 {
+            font-size: 22px;
+            line-height: 26px;
+            font-family: $font_heading_light;
             color: #1f1f1f;
             // font-size: 19px;
             text-align: center;
@@ -229,6 +217,12 @@
         @include mv-media(max, 767px) {
           width: 100%;
         }
+      }
+      h4{
+        
+        font-size: 22px;
+        line-height: 26px;
+        font-family: $font_heading_light;
       }
 
       .heading_1 {
@@ -472,6 +466,9 @@
     }
 
     h2 {
+      font-size: 64px;
+      line-height: 68px;
+      font-family: "PublicSans_Light";
       color: $color_secondary2;
       //   font-size: 50px;
       //   font-weight: 600;
@@ -518,6 +515,16 @@
         flex-wrap: wrap;
         padding-top: 20px;
         justify-content: space-between;
+      }
+      h5{
+        font-size: 22px;
+        line-height: 26px;
+        font-family: $font_heading_light;
+      }
+      p{
+        font-size: 16px;
+        line-height: 20px;
+        font-family: $font_heading_light;
       }
 
       .team_section_1 {
@@ -599,14 +606,13 @@
       }
       .modal-body {
         h4 {
-          //   font-size: 30px;
-          //   font-weight: 600;
+          font-size: 32px;
+          line-height: 36px;
+          font-family: $font_heading_light;
           text-align: center;
           position: relative;
-          // letter-spacing: 3px;
           margin: 0 0 40px 0;
           text-transform: uppercase;
-          //   font-family: "Cinzel_Regular";
           @include mv-media(max, 767px) {
             font-size: 20px;
           }
@@ -617,11 +623,11 @@
             padding-bottom: 0;
           }
           li {
+            font-size: 22px;
+            line-height: 26px;
+            font-family: $font_heading_light;
             color: #000;
-            // font-size: 20px;
-            // line-height: 24px;
             padding-bottom: 18px;
-            // font-family: lato_Regular;
             list-style-type: disc;
             @include mv-media(max, 767px) {
               font-size: 16px;
@@ -631,15 +637,15 @@
         }
         .modal-footer {
           .log_in_btn {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
             border: 0;
-            // font-size: 17px;
             padding: 12px 50px;
             color: $color-white;
-            // letter-spacing: 1.5px;
             text-decoration: none;
             border-radius: 0;
             background-color: $color_secondary2;
-            // font-family: $font_heading_regular;
             transition: all 0.5s ease-in-out;
             &:focus {
               outline: none;
@@ -655,12 +661,12 @@
         }
 
         p {
+          font-size: 16px;
+          line-height: 20px;
+          font-family: $font_heading_light;
           color: #000;
-          //   font-size: 16px;
-          //   line-height: 20px;
           padding-bottom: 18px;
           text-align: left;
-          //   font-family: lato_Regular;
           @include mv-media(max, 767px) {
             font-size: 16px;
             line-height: 20px;

@@ -20,25 +20,25 @@
         <section id="terms_condition" class="terms_condition">
             <div class="banner">
                 <div class="banner_text">
-                    <h5 class="caption_txt">COMPANY PROFILE</h5>
-                    <h1 class="hl_copy_title">Terms & Conditions</h1>
+                    <h5>COMPANY PROFILE</h5>
+                    <h1>Terms & Conditions</h1>
                     <ul>
-                        <li class="body_txt">
+                        <li>
                             <img src="dist/img/regulatory/home.png" class="img-responsive" alt=""><a href="#">HOME
                                 &emsp;></a>
                         </li>
-                        <li class="body_txt"><a href="#">TERMS & CONDITIONS</a></li>
+                        <li><a href="#">TERMS & CONDITIONS</a></li>
                     </ul>
                 </div>
             </div>
             <div class="term_contant">
                 <div class="container">
                     <div class="term_contant_section">
-                        <h4 class="hl_copy_txt">The usage of this Network platform by a user / client shall mean
+                        <h4>The usage of this Network platform by a user / client shall mean
                             that he / she agrees with the following terms:</h4>
-                        <h5 class="caption_txt">General</h5>
+                        <h5>General</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 This page contains important information regarding the terms and conditions which
                                 apply
                                 to
@@ -71,9 +71,9 @@
                                 future reference.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Orders</h5>
+                        <h5>Orders</h5>
                         <ul>
-                            <li class="body_txt">All orders for purchase, sale or other dealings in securities and
+                            <li>All orders for purchase, sale or other dealings in securities and
                                 other
                                 instructions routed through the SPARK's Online Trading System via the client's
                                 Username
@@ -108,7 +108,7 @@
                                 prohibit or
                                 restrict the client's ability to place orders or trade in securities through SPARK.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 Though orders will generally be routed to the Exchange's computer systems within a
                                 few
                                 seconds from the time the order is placed by the client on SPARK's Online Trading
@@ -118,9 +118,9 @@
                                 loss on account of the delay.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Online account opening</h5>
+                        <h5>Online account opening</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 Online account opening using AADHAAR is currently available only for residents of
                                 India
                                 opening accounts for an individual (HUFs, corporate bodies, NRIs, etc., not
@@ -135,9 +135,9 @@
                                 location.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Trading, settlement and accounts</h5>
+                        <h5>Trading, settlement and accounts</h5>
                         <ul>
-                            <li class="body_txt">The client agrees that all orders placed through the Network
+                            <li>The client agrees that all orders placed through the Network
                                 platform
                                 shall
                                 be forwarded by the system to the Exchange. The client agrees that if, for any
@@ -153,7 +153,7 @@
                                 and
                                 shall
                                 not be re-processed, in any event.</li>
-                            <li class="body_txt">
+                            <li>
                                 SPARK may, at its sole discretion, reject any order placed on the Network platform
                                 or in
                                 any
@@ -175,7 +175,7 @@
                                 for
                                 the day.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 The client is aware that the electronic trading systems either at the Exchange or in
                                 the
                                 office of SPARK offices are vulnerable to temporary disruptions, breakdowns or
@@ -195,7 +195,7 @@
                                 to
                                 such eventualities which are beyond the control of SPARK.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 SPARK shall not be responsible for any order, that is made by the client by mistake
                                 and
                                 every order that is entered by the client through the use of the allotted user name
@@ -209,9 +209,9 @@
                                 that behalf is not guaranteed.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Margin</h5>
+                        <h5>Margin</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 The client agrees and undertakes to immediately deposit with SPARK such cash,
                                 securities
                                 or
@@ -225,7 +225,7 @@
                                 desires
                                 to avail of the Online Trading Service of SPARK.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 The client undertakes to monitor the market value of such securities on a continuous
                                 basis.
                                 The client further undertakes to replenish any shortfall in the value of the margin
@@ -234,9 +234,9 @@
                                 whether or not SPARK intimates such shortfall.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">License and Site Access</h5>
+                        <h5>License and Site Access</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 SPARK grants you a limited license to access and make personal use of the Network
                                 platform. This license does not include any downloading or copying of any kind of
                                 information for the benefit of another individual, vendor or any other third party;
@@ -257,7 +257,7 @@
                                 used by SPARK to prevent or restrict access to the Site. Any unauthorized use by you
                                 shall terminate the permission or license granted to you by SPARK.
                             </li>
-                            <li class="body_txt">By using the Network platform you agree :</li>
+                            <li>By using the Network platform you agree :</li>
                             <ul>
                                 <li>&emsp;not use this Network platform or its contents for any commercial purpose;</li>
                                 <li>&emsp; not to make any speculative, false, or fraudulent transaction or any
@@ -270,9 +270,9 @@
                                 <li>&emsp;not to gain unauthorized access to other computer systems.</li>
                             </ul>
                         </ul>
-                        <h5 class="caption_txt">Information Sharing and Confidentiality</h5>
+                        <h5>Information Sharing and Confidentiality</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 In consideration of your usage of this Network platform, you represent that you are
                                 legally authorised to form a binding contract and are not a person barred from
                                 receiving
@@ -294,9 +294,9 @@
                                 costs) relating to any abuse or violation including those aforesaid.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Intellectual Property Rights</h5>
+                        <h5>Intellectual Property Rights</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 This Network platform and all information and materials contained therein belongs to
                                 SPARK, its affiliates and third parties. We retain all the intellectual property
                                 rights
@@ -314,9 +314,9 @@
                                 seeking prior written permission from SPARK.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Trademarks and Copyright</h5>
+                        <h5>Trademarks and Copyright</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 The content and information contained within our Network platform or delivered to you in
                                 connection with your use of our Network platform is the property of SPARK and any other
                                 third party (where applicable). The trademark, trade names and logos (the "Trade Marks")
@@ -332,9 +332,9 @@
                                 consent of SPARK.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Limitation of Liability</h5>
+                        <h5>Limitation of Liability</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 You expressly understand and agree that SPARK and its subsidiaries, affiliates,
                                 officers, directors, employees, agents and licensors shall not be liable to you for any
                                 direct, indirect, incidental, special, consequential or exemplary damages, including,
@@ -350,14 +350,14 @@
                                 purpose.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Governing Law and Jurisdiction</h5>
+                        <h5>Governing Law and Jurisdiction</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 These Terms shall be construed in accord with the applicable laws of India. The Courts
                                 at Chennai shall have exclusive jurisdiction in any proceedings arising out of these
                                 Terms.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 In the event of any dispute or difference either in interpretation or otherwise, of any
                                 terms of these Terms of Use, the same shall be referred to an independent arbitrator who
                                 will be appointed by SPARK and such Arbitrator’s decision shall be final and binding on
@@ -366,32 +366,32 @@
                                 language and shall be held in Chennai.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">E-mail/ SMS and Voice Communications:</h5>
+                        <h5>E-mail/ SMS and Voice Communications:</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 All clients who register on our site agree, acknowledge and accept as per the terms and
                                 conditions and that even if they are registered under NDNC, DND (Do Not Disturb), by
                                 accepting the terms, you authorize SPARK, to call and assist you and/or SMS/E-Mail you
                                 by virtue of you having voluntarily registered on our Network platforms.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Declined Transactions</h5>
+                        <h5>Declined Transactions</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 We do not store any information related to your Net banking. In case we do not receive
                                 an authorization from the respective bank or the transaction gets interrupted due to any
                                 reason, the transaction will be treated as failed and no order will be processed for
                                 that transaction.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 In this case, if any amount has been deducted from your account, the same will be
                                 credited back. The liability for use of net banking fraudulently will be on you and the
                                 onus to 'prove otherwise' shall be exclusively on you.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Force majeure</h5>
+                        <h5>Force majeure</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 SPARK shall not be responsible for delay or default in the performance of their
                                 obligations due to contingencies beyond their control, such as (including but not
                                 limited to) losses caused directly or indirectly by exchange or market rulings,
@@ -399,16 +399,16 @@
                                 of the systems, failure of the internet links or government / regulatory action.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Security</h5>
+                        <h5>Security</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 We have in place appropriate technical and security measures to prevent unauthorized or
                                 unlawful access to or accidental loss of or destruction or damage to your information.
                                 When we collect data through our product, we collect your personal details on a secured
                                 server. The payment details are entered on the Payment Gateway’s or Bank’s page on a
                                 secured SSL. The data is transferred between Bank and gateways in an encrypted manner.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 SPARK utilizes various information security measures, secured data transmission and
                                 other security techniques to protect your personal data. However, please keep in mind
                                 that transmitting information via the internet is never completely secure and thus any
@@ -420,9 +420,9 @@
                                 over email messages.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Password Protection</h5>
+                        <h5>Password Protection</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 SPARK will provide the client with a username and a trading password which will enable
                                 him to avail of the facilities of Online Trading through our Network platform, over the
                                 telephone or in any such other manner as may be permitted for availing of the services.
@@ -432,7 +432,7 @@
                                 You are required to keep your password secure. If so provided in the interface of the
                                 network platform you can also change your password on the Network platform at any time.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 The client acknowledges that he is fully aware of and understands the risks associated
                                 with availing of online trading services through internet including the risk of misuse
                                 and unauthorised use of his Username and/or Password by a third party and the risk of a
@@ -443,7 +443,7 @@
                                 person through SPARK’s Online Trading System on the client’s Username in any manner
                                 whatsoever.
                             </li>
-                            <li class="body_txt">
+                            <li>
                                 Without prejudice to the provisions mentioned herein above, the client shall immediately
                                 notify SPARK in writing with full details if he discovers or suspects unauthorised
                                 access through his Username, Password or Account, he notices discrepancies that might be
@@ -451,25 +451,25 @@
                                 flaw in SPARK’s Online Trading System.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Session Control</h5>
+                        <h5>Session Control</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 SPARK may put in an internal session manager that will ensure that if you are not around
                                 your browser for more than 20 minutes it asks for a login once you are back.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Internet Scanners and Intrusion Detection System</h5>
+                        <h5>Internet Scanners and Intrusion Detection System</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 The system maintains a database of attack signatures which is continuously updated and
                                 against which it will scan all incoming traffic to detect any malicious activity or
                                 hacking attempts into the Website. In the event of a possible attack, it will terminate
                                 that session, log the attack details and also alert the administrator.
                             </li>
                         </ul>
-                        <h5 class="caption_txt">Modification</h5>
+                        <h5>Modification</h5>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 SPARK reserves the right to delete, modify, change or discontinue any or all of the
                                 information on this Network platform without giving notice to any user, individual,
                                 group of individuals, institutions and any such governing bodies.

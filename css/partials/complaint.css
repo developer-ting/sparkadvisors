@@ -1,5 +1,5 @@
                 body:before {
                     white-space: pre;
                     font-family: monospace;
-                    content: "Error: Undefined variable: \"$color_secondary2\".\A         on line 32 of ./sass/partials/complaint.scss\A \A 27:         -ms-user-select: none;\A 28:         user-select: none;\A 29:         background-image: none;\A 30:         border: 1px solid transparent;\A 31:         border-radius: 4px;\A 32:         background-color: $color_secondary2;\A 33:         color: $color-white;\A 34:         span {\A 35:           margin-left: 5px;\A 36:         }\A 37:       }";
+                    content: "Error: Undefined variable: \"$color_secondary2\".\A         on line 13 of ./sass/partials/complaint.scss\A \A 8:     box-sizing: border-box;\A 9:   }\A 10:   .contact_form {\A 11:     padding: 40px 0 60px 0;\A 12:     a {\A 13:       color: $color_secondary2;\A 14:       text-decoration: none;\A 15:       .btn {\A 16:         font-size: 16px;\A 17:         line-height: 20px;\A 18:         font-family: $font_heading_light;";
                 }

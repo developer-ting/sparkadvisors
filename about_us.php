@@ -43,31 +43,30 @@
                             </button>
                         </div> -->
                             <div class="modal-body">
-                                <h4 class="hl_copy_txt">RISK DISCLOSURES ON DERIVATIVES</h4>
+                                <h4>RISK DISCLOSURES ON DERIVATIVES</h4>
                                 <ul>
-                                    <li class="caption_txt">9 out of 10 individual traders in equity Futures and Options
+                                    <li>9 out of 10 individual traders in equity Futures and Options
                                         Segment, incurred
                                         net
                                         losses.</li>
-                                    <li class="caption_txt">On an average, loss makers registered net trading loss close
+                                    <li>On an average, loss makers registered net trading loss close
                                         to
                                         ₹ 50,000.</li>
-                                    <li class="caption_txt">Over and above the net trading losses incurred, loss makers
+                                    <li>Over and above the net trading losses incurred, loss makers
                                         expended an
                                         additional
                                         28% of net trading losses as transaction costs.</li>
-                                    <li class="caption_txt">Those making net trading profits, incurred between 15% to
+                                    <li>Those making net trading profits, incurred between 15% to
                                         50% of
                                         such profits as
                                         transaction cost.</li>
                                 </ul>
                                 <div class="modal-footer register_btn">
-                                    <button type="button" class="btn btn-secondary log_in_btn body_txt"
-                                        data-dismiss="modal">I
+                                    <button type="button" class="btn btn-secondary log_in_btn" data-dismiss="modal">I
                                         ACKNOWLEDGE</button>
                                 </div>
-                                <p class="source body_txt">Source:</p>
-                                <p class="body_txt"><a target="_blank" href="https://www.sebi.gov.in/reports-and-statistics/research/jan-2023/study-analysis-of-profit-and-loss-of-individual-traders-dealing-in-equity-fando-segment_67525.html
+                                <p class="source">Source:</p>
+                                <p><a target="_blank" href="https://www.sebi.gov.in/reports-and-statistics/research/jan-2023/study-analysis-of-profit-and-loss-of-individual-traders-dealing-in-equity-fando-segment_67525.html
                         ">SEBI study dated January 25, 2023 on “Analysis of Profit and Loss of Individual Traders
                                         dealing in equity Futures and Options (F&O) Segment”, wherein Aggregate Level
                                         findings are based on annual Profit/Loss incurred by individual traders in
@@ -81,13 +80,13 @@
 
                 <div class="banner">
                     <div class="banner_text">
-                        <h1 class="hl_title">About Us</h1>
+                        <h1>About Us</h1>
                         <ul>
-                            <li class="body_txt">
+                            <li>
                                 <img src="dist/img/regulatory/home.png" class="img-responsive" alt=""><a href="#">HOME
                                     &emsp;></a>
                             </li>
-                            <li class="body_txt"><a href="#">ABOUT US</a></li>
+                            <li><a href="#">ABOUT US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -95,60 +94,59 @@
                     <div class="container">
                         <div class="term_contant_section">
                             <ul>
-                                <li class="caption_txt"><a
-                                        href="https://www.linkedin.com/company/spark-wealth-advisors-private-limited/about/"
+                                <li><a href="https://www.linkedin.com/company/spark-wealth-advisors-private-limited/about/"
                                         target="_blank">Spark PWM Private Limited </a>(formerly known as Spark Family
                                     Office
                                     and
                                     Investment Advisors (India) Private Limited), or Spark Private Wealth, is a
                                     subsidiary
                                     of Spark Capital Advisors (India) Limited.</li>
-                                <li class="caption_txt">We extend the core DNA of Spark Capital - Knowledge, Integrity,
+                                <li>We extend the core DNA of Spark Capital - Knowledge, Integrity,
                                     Trust & Transparency - to help Affluent Families, Business Owners / Promoters,
                                     Family
                                     Offices, New Age Entrepreneurs and CXOs to navigate a world full of opportunities
                                     and
                                     risks.</li>
-                                <li class="caption_txt"> We offer products and services designed to help them seamlessly
+                                <li> We offer products and services designed to help them seamlessly
                                     create, preserve and transition their wealth across their generations.</li>
-                                <li class="caption_txt">We back our offerings with a robust Investment Policy Framework
+                                <li>We back our offerings with a robust Investment Policy Framework
                                     which is backed by best-in-class research and superior execution to pick future
                                     winners
                                     well ahead of our competition.</li>
                             </ul>
                         </div>
                         <div class="core_section">
-                            <h2 class="hl_copy_title">CORE<br> PHILOSOPHY</h2>
+                            <h2>CORE<br> PHILOSOPHY</h2>
                             <div class="core_icon">
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_1.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">Keep it simple</h5>
+                                    <h5>Keep it simple</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_2.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">Open architecture</h5>
+                                    <h5>Open architecture</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_3.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">Bespoke offering</h5>
+                                    <h5>Bespoke offering</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_4.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">Transparent pricing</h5>
+                                    <h5>Transparent pricing</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_5.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">No prop trading except for
+                                    <h5>No prop trading except for
                                         client facilitation</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_6.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">Asset oriented
+                                    <h5>Asset oriented
                                         approach</h5>
                                 </div>
                                 <div class="core_icon_section">
                                     <img src="dist/img/about/core_7.png" class="img-responsive" alt="">
-                                    <h5 class="caption_txt">No conflict
+                                    <h5>No conflict
                                         of interest</h5>
                                 </div>
                             </div>
@@ -161,22 +159,22 @@
                         <div class="wealth_section hidden-xs">
                             <img src="dist/img/about/wealth_service.png" class="img-responsive" alt="">
                             <div class="heading_1" data-toggle="modal" data-target="#graph_1">
-                                <h4 class="caption_txt">RESEARCH</h4>
+                                <h4>RESEARCH</h4>
                             </div>
                             <div class="heading_2" data-toggle="modal" data-target="#graph_2">
-                                <h4 class="caption_txt">INVESTMENT &<br>
+                                <h4>INVESTMENT &<br>
                                     ASSET ADVISORY</h4>
                             </div>
                             <div class="heading_3" data-toggle="modal" data-target="#graph_3">
-                                <h4 class="caption_txt">ALPHA<br>
+                                <h4>ALPHA<br>
                                     IDEAS & DEALS</h4>
                             </div>
                             <div class="heading_4" data-toggle="modal" data-target="#graph_4">
-                                <h4 class="caption_txt">Pro Equities<br>
+                                <h4>Pro Equities<br>
                                     Brokerage</h4>
                             </div>
                             <div class="heading_5" data-toggle="modal" data-target="#graph_5">
-                                <h4 class="caption_txt">Multi-Family <br>
+                                <h4>Multi-Family <br>
                                     Office Services</h4>
                             </div>
                         </div>
@@ -250,21 +248,21 @@
 
                 <div class="team">
                     <div class="container">
-                        <h2 class="hl_copy_title">Management
+                        <h2>Management
                             <span>Team</span>
                         </h2>
                         <div class="team_section">
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_1.jpg" class="img-responsive" alt="">
-                                <h5 class="caption_txt">Y. RAMA RAO </h5>
-                                <p class="body_txt">MD & CEO, Spark Capital <a
+                                <h5>Y. RAMA RAO </h5>
+                                <p>MD & CEO, Spark Capital <a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQENjzgtfBzFVgAAAYtB2IXY0ttlzfClRvZnfinAK0RArx79IkcvgHC0tYRDVh57igNxYbMySnFxQEnGjTkxaLlUv34CLOT02o6zJUt63i8F4svNts1ozY0-dXaVnwC5u2hR5lg=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Framarao-yechuri-571347b2%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
-                                <h5 class="caption_txt">GANASHYAM S</h5>
-                                <p class="body_txt">Co-CEO, Spark PWM
+                                <h5>GANASHYAM S</h5>
+                                <p>Co-CEO, Spark PWM
                                     <a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGijANU6CxVSQAAAYtBy5Fw8oSNsPnXlDTc5_m7WExXWXKRlSbuNA2dfF9nVkUWLkLj4iviwvXHCqQhwTl_l_VF7t3kwO021XTbJHx3a9A0qT62SGkLLAp8Xd8OIqXD7pkaOFQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fganashyam-s-2537536">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
@@ -272,23 +270,23 @@
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_5.jpg" class="img-responsive" alt="">
-                                <h5 class="caption_txt">ARPITA VINAY</h5>
-                                <p class="body_txt">Co-CEO, Spark PWM<a
+                                <h5>ARPITA VINAY</h5>
+                                <p>Co-CEO, Spark PWM<a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE3lK9Ib1jL_QAAAYtBzKLgIHFWBvvSs3WVPlMUCQZV17Z5aLddAhLSXY9KhkwBPwdGrF_JJxiL8IwK0lzcndnoEiFoV1ge0KBkw8afG1CJgSRxSMfNdQYn-J51zhxDXCfsfPc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Farpita-vinay-658b4b22%3Flipi%3Durn%253Ali%253Apage%253Ad_flagship3_profile_view_base_contact_details%253B3A1iUfBITByExfQn5SBlvg%253D%253D">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
                                 </p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_2.jpg" class="img-responsive" alt="">
-                                <h5 class="caption_txt">RAJESH K PARIKH</h5>
-                                <p class="body_txt">MD, Spark Private Wealth<a
+                                <h5>RAJESH K PARIKH</h5>
+                                <p>MD, Spark Private Wealth<a
                                         href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEcytEj_X8CjQAAAYtB2MRYr5qVvumoWLAmzNqk0GKN3XHmWU1F5kXFk4JFKlWICxe-q2Kv-tQdtwzhA44Yca-yKLx5CnUEhjhzGiNRwDFzKk2ZL95IyTq_FY-WjpVGyCrPFV8=&original_referer=https://sparkadvisors.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frajesh-k-parikh-403b775%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_3.jpg" class="img-responsive" alt="">
-                                <h5 class="caption_txt">VENKATESH P M</h5>
-                                <p class="body_txt">DMD, Spark Private Wealth<a
+                                <h5>VENKATESH P M</h5>
+                                <p>DMD, Spark Private Wealth<a
                                         href="https://www.linkedin.com/in/venkatesh-pongaliur-29b1886/"> <img
                                             src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>

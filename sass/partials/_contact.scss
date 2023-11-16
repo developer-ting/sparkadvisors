@@ -24,62 +24,52 @@
             }
 
             h5 {
-                // font-size: 20px;
+                font-size: 22px;
+                line-height: 26px;
+                font-family: "PublicSans_Light";
                 text-align: center;
                 color: $color-white;
-                // font-family: $font_lato_heading_regular;
+                @include mv-media(max, 767px) {
+                    font-size: 16px !important;
+                    line-height: 1.4;
+                }
             }
-
+        
             h1 {
-                // font-size: 50px;
-                // font-weight: 600;
+                font-size: 64px;
+                line-height: 68px;
+                font-family: $font_heading_light;
                 text-align: center;
                 position: relative;
                 color: $color-white;
-                // letter-spacing: 3px;
                 margin: 15px 0 30px 0;
                 text-transform: uppercase;
-                // font-family: $font_heading_regular;
-
-                // &:before {
-                //     right: 0;
-                //     content: '';
-                //     width: 50px;
-                //     height: 4px;
-                //     bottom: -10px;
-                //     position: absolute;
-                //     background-color: #25a8a5;
-
-                //     @include mv-media(max, 992px) {
-                //         left: 50%;
-                //         transform: translateX(-50%);
-                //     }
-                // }
-
+        
                 @include mv-media(max, 767px) {
                     font-size: 30px !important;
+                    line-height: 1.4;
                 }
             }
-
+        
             ul {
                 text-align: center;
-
+        
                 li {
                     padding: 0 5px;
                     display: inline-block;
-
+        
                     img {
                         margin-right: 10px;
                         display: inline-block;
                     }
-
+        
                     a {
-                        // font-size: 14px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-family: $font_heading_light;
                         color: $color-white;
-                        // letter-spacing: 3px;
                         text-decoration: none;
                         text-transform: uppercase;
-                        // font-family: $font_heading_regular;
                     }
                 }
             }
@@ -102,6 +92,9 @@
             }
 
             .send_msg {
+                font-size: 32px;
+                line-height: 36px;
+                font-family: "PublicSans_Light";
                 width: 80%;
                 margin: auto;
                 color: #202020;
@@ -121,11 +114,13 @@
                     margin-bottom: 30px;
 
                     input {
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-family: $font_heading_light;
                         margin-left: 0;
                         border-bottom: 0;
                         padding-left: 15px;
                         border: 1px solid #9e9e9e;
-                        font-size: 16px !important;
                         &::placeholder{
                             text-transform: uppercase;
                         }
@@ -134,7 +129,9 @@
                         }
                     }
                     textarea{
-                        font-size: 16px !important;
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-family: $font_heading_light;
                     }
                 }
 

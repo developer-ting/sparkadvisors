@@ -54,14 +54,14 @@
 
             <div class="banner">
                 <div class="banner_text">
-                    <h5 class="caption_txt">COMPANY PROFILE</h5>
-                    <h1 class="hl_copy_title">Regulatory Information</h1>
+                    <h5>COMPANY PROFILE</h5>
+                    <h1>Regulatory Information</h1>
                     <ul>
-                        <li class="body_txt">
+                        <li>
                             <img src="dist/img/regulatory/home.png" class="img-responsive" alt=""><a href="#">HOME
                                 &emsp;></a>
                         </li>
-                        <li class="body_txt"><a href="#">Regulatory Info</a></li>
+                        <li><a href="#">Regulatory Info</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,13 +69,13 @@
 
                 <div class="bg-grey text-center">
 
-                    <h3 class="hl_copy_txt">STATUTORY INFORMATION</h3>
-                    <h6 class="ta_center caption_txt">Spark PWM Private Limited</h6>
-                    <h6 class="ta_center caption_txt">(Formerly known as Spark Family Office and Investment Advisors
+                    <h3>STATUTORY INFORMATION</h3>
+                    <h6 class="ta_center">Spark PWM Private Limited</h6>
+                    <h6 class="ta_center">(Formerly known as Spark Family Office and Investment Advisors
                         (India)
                         Private
                         Limited)</h6>
-                    <h6 class="ta_center caption_txt">AMFI Registered Mutual Fund Distributor</h6>
+                    <h6 class="ta_center">AMFI Registered Mutual Fund Distributor</h6>
                     <br>
 
 
@@ -142,77 +142,77 @@
                 <div class="offer-doc">
                     <div class="grid_box">
                         <div class="grid_item">
-                            <h4 class="body_txt">Advisory for investors </h4>
+                            <h4>Advisory for investors </h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/Advisory_for_investors.pdf" type="pdf"
                                 target="_blank">
-                                <button class="btn font-lato" type="button">Download <span class="arrow"><img
+                                <button class="btn  " type="button">Download <span class="arrow"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
 
                         <div class="grid_item">
-                            <h4 class="body_txt">Inactive Account Policy </h4>
+                            <h4>Inactive Account Policy </h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SFO_Inactive_Account_Policy.pdf"
                                 type="pdf" target="_blank">
-                                <button class="btn font-lato" type="button">Download <span class="arrow"><img
+                                <button class="btn  " type="button">Download <span class="arrow"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             nalt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">KYC - INDIVIDUAL</h4>
+                            <h4>KYC - INDIVIDUAL</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/KYC-Individual.pdf" target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">KYC - NON INDIVIDUAL</h4>
+                            <h4>KYC - NON INDIVIDUAL</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/KYC-Non-Individual.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">Investor Complaints Data</h4>
+                            <h4>Investor Complaints Data</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/Investor_Complaints_Data.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">Investor Charter</h4>
+                            <h4>Investor Charter</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/Investor_Charter.pdf" target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">INVESTOR CHARTER - SVT</h4>
+                            <h4>INVESTOR CHARTER - SVT</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SVT_Investor_Charter.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">Disclosure Document</h4>
+                            <h4>Disclosure Document</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/Disclosure_Document.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
@@ -220,18 +220,18 @@
                         </div>
 
                         <!-- <div class="grid_item">
-                            <h4 class="body_txt">Escalation Matrix For Investor Grievances</h4>
+                            <h4>Escalation Matrix For Investor Grievances</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SFO-Contact-Us.pdf" target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span class="arrow know-more"><img src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
+                                <button class="btn   text-center" type="button">Know more <span class="arrow know-more"><img src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
                             </a>
                         </div> -->
 
 
                         <div class="grid_item">
-                            <h4 class="body_txt">Investor Education &amp; Support Portal</h4>
+                            <h4>Investor Education &amp; Support Portal</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SFO-Investor-Education.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
@@ -239,10 +239,10 @@
                         </div>
 
                         <div class="grid_item">
-                            <h4 class="body_txt">ACTIVE CLIENT BANK ACCOUNTS</h4>
+                            <h4>ACTIVE CLIENT BANK ACCOUNTS</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/clients_bank_accounts_on_letterhead.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
@@ -250,9 +250,9 @@
                         </div>
 
                         <div class="grid_item">
-                            <h4 class="body_txt">Register A Complaint</h4>
+                            <h4>Register A Complaint</h4>
                             <a href="https://sparkadvisors.in/dist/register-a-complaint.pdf" target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
@@ -260,10 +260,10 @@
                         </div>
 
                         <div class="grid_item">
-                            <h4 class="body_txt">MF Commission disclosure</h4>
+                            <h4>MF Commission disclosure</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/MF_Commission_disclosure.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
@@ -271,39 +271,39 @@
                         </div>
 
                         <div class="grid_item">
-                            <h4 class="body_txt">PMS Commission Disclosure</h4>
+                            <h4>PMS Commission Disclosure</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/PMS_Commission_disclosure.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">Procedure of Account Opening</h4>
+                            <h4>Procedure of Account Opening</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/Account-Opening-SFO.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">KMP details</h4>
+                            <h4>KMP details</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SFO-KMP-details.pdf" target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
                             </a>
                         </div>
                         <div class="grid_item">
-                            <h4 class="body_txt">Registration details</h4>
+                            <h4>Registration details</h4>
                             <a href="https://sparkadvisors.in/dist/img/regulatory/SFO-Registration-details.pdf"
                                 target="_blank">
-                                <button class="btn font-lato text-center" type="button">Know more <span
+                                <button class="btn   text-center" type="button">Know more <span
                                         class="arrow know-more"><img
                                             src="https://sparkcapital.in/dist/img/download-down.png"
                                             alt=""></span></button>
