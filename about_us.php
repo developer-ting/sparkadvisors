@@ -251,17 +251,17 @@
                             <span>Team</span>
                         </h2>
                         <div class="team_section">
-                            <div class="team_section_1">
+                            <!-- <div class="team_section_1">
                                 <img src="dist/img/about/team_1.jpg" class="img-responsive" alt="">
                                 <h5>Y. RAMA RAO </h5>
                                 <p>MD & CEO, Spark Capital <a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQENjzgtfBzFVgAAAYtB2IXY0ttlzfClRvZnfinAK0RArx79IkcvgHC0tYRDVh57igNxYbMySnFxQEnGjTkxaLlUv34CLOT02o6zJUt63i8F4svNts1ozY0-dXaVnwC5u2hR5lg=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Framarao-yechuri-571347b2%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
-                            </div>
+                            </div> -->
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
                                 <h5>GANASHYAM S</h5>
-                                <p>Co-CEO, Spark PWM
+                                <p>MD & CEO, Spark PWM
                                     <a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGijANU6CxVSQAAAYtBy5Fw8oSNsPnXlDTc5_m7WExXWXKRlSbuNA2dfF9nVkUWLkLj4iviwvXHCqQhwTl_l_VF7t3kwO021XTbJHx3a9A0qT62SGkLLAp8Xd8OIqXD7pkaOFQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fganashyam-s-2537536">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
@@ -270,7 +270,7 @@
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_5.jpg" class="img-responsive" alt="">
                                 <h5>ARPITA VINAY</h5>
-                                <p>Co-CEO, Spark PWM<a
+                                <p>MD & CEO, Spark PWM<a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE3lK9Ib1jL_QAAAYtBzKLgIHFWBvvSs3WVPlMUCQZV17Z5aLddAhLSXY9KhkwBPwdGrF_JJxiL8IwK0lzcndnoEiFoV1ge0KBkw8afG1CJgSRxSMfNdQYn-J51zhxDXCfsfPc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Farpita-vinay-658b4b22%3Flipi%3Durn%253Ali%253Apage%253Ad_flagship3_profile_view_base_contact_details%253B3A1iUfBITByExfQn5SBlvg%253D%253D">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
                                 </p>
