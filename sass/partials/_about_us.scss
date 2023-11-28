@@ -368,6 +368,7 @@
           display: inline-block;
           // letter-spacing: 1px;
           font-family: $font_heading_regular;
+          text-transform: uppercase;
 
           &:before {
             right: 0;
@@ -417,7 +418,7 @@
             justify-content: space-between;
 
             .number {
-              font-family: $font_heading_regular;
+              font-family: $font_heading_light;
               font-size: 40px;
               font-weight: 600;
               color: #fff;
@@ -442,7 +443,8 @@
             width: 70%;
             margin: 20px 0 20px auto;
             // letter-spacing: 1px;
-            font-family: $font_heading_regular;
+            font-family: $font_heading_light;
+            text-transform: uppercase;
 
             @include mv-media(max, 360px) {
               font-size: 20px;
