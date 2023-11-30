@@ -251,15 +251,8 @@
                             <span>Team</span>
                         </h2>
                         <div class="team_section">
-                            <!-- <div class="team_section_1">
-                                <img src="dist/img/about/team_1.jpg" class="img-responsive" alt="">
-                                <h5>Y. RAMA RAO </h5>
-                                <p>MD & CEO, Spark Capital <a
-                                        href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQENjzgtfBzFVgAAAYtB2IXY0ttlzfClRvZnfinAK0RArx79IkcvgHC0tYRDVh57igNxYbMySnFxQEnGjTkxaLlUv34CLOT02o6zJUt63i8F4svNts1ozY0-dXaVnwC5u2hR5lg=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Framarao-yechuri-571347b2%2F">
-                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
-                            </div> -->
                             <div class="team_section_1">
-                                <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
+                                <img src="dist/img/about/team_1.jpg" class="img-responsive" alt="">
                                 <h5>GANASHYAM S</h5>
                                 <p>MD & CEO, Spark PWM
                                     <a
@@ -268,7 +261,7 @@
                                 </p>
                             </div>
                             <div class="team_section_1">
-                                <img src="dist/img/about/team_5.jpg" class="img-responsive" alt="">
+                                <img src="dist/img/about/team_2.jpg" class="img-responsive" alt="">
                                 <h5>ARPITA VINAY</h5>
                                 <p>MD & CEO, Spark PWM<a
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE3lK9Ib1jL_QAAAYtBzKLgIHFWBvvSs3WVPlMUCQZV17Z5aLddAhLSXY9KhkwBPwdGrF_JJxiL8IwK0lzcndnoEiFoV1ge0KBkw8afG1CJgSRxSMfNdQYn-J51zhxDXCfsfPc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Farpita-vinay-658b4b22%3Flipi%3Durn%253Ali%253Apage%253Ad_flagship3_profile_view_base_contact_details%253B3A1iUfBITByExfQn5SBlvg%253D%253D">
@@ -276,18 +269,43 @@
                                 </p>
                             </div>
                             <div class="team_section_1">
-                                <img src="dist/img/about/team_2.jpg" class="img-responsive" alt="">
+                                <img src="dist/img/about/team_3.jpg" class="img-responsive" alt="">
                                 <h5>RAJESH K PARIKH</h5>
                                 <p>MD, Spark Private Wealth<a
                                         href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEcytEj_X8CjQAAAYtB2MRYr5qVvumoWLAmzNqk0GKN3XHmWU1F5kXFk4JFKlWICxe-q2Kv-tQdtwzhA44Yca-yKLx5CnUEhjhzGiNRwDFzKk2ZL95IyTq_FY-WjpVGyCrPFV8=&original_referer=https://sparkadvisors.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frajesh-k-parikh-403b775%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
-                                <img src="dist/img/about/team_3.jpg" class="img-responsive" alt="">
+                                <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
                                 <h5>VENKATESH P M</h5>
                                 <p>DMD, Spark Private Wealth<a
                                         href="https://www.linkedin.com/in/venkatesh-pongaliur-29b1886/"> <img
                                             src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_5.jpg" class="img-responsive" alt="">
+                                <h5>ANIMESH RAIZADA</h5>
+                                <p>COO, Spark PWM<a href="https://www.linkedin.com/in/animesh-raizada">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_6.jpg" class="img-responsive" alt="">
+                                <h5>AMIT RATHI</h5>
+                                <p>Senior Director, Spark PWM<a href="https://www.linkedin.com/in/amit-rathi-26a53750">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_7.jpg" class="img-responsive" alt="">
+                                <h5>SATHYAJITH NANDAKUMAR</h5>
+                                <p>Director, Spark PWM<a
+                                        href="https://www.linkedin.com/in/sathyajith-nandakumar-6b762459">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_8.jpg" class="img-responsive" alt="">
+                                <h5>RAJ JAGDISH</h5>
+                                <p>Director, Spark PWM<a href="http://linkedin.com/in/raj-jagdish-88457b95">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                         </div>
                     </div>
