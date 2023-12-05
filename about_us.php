@@ -312,8 +312,15 @@
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_9.jpg" class="img-responsive" alt="">
                                 <h5>VAISHVIK TOPRANI</h5>
-                                <p>Senior Director & Regional Head, Spark PWM<a
+                                <p>Senior Director, Spark PWM<a
                                         href="https://www.linkedin.com/in/vaishvik-toprani-111793227" target="_blank">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_10.jpg" class="img-responsive" alt="">
+                                <h5>RANJIT RAJPUT</h5>
+                                <p>Director, Spark PWM<a href="https://www.linkedin.com/in/ranjitrajput"
+                                        target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                         </div>
