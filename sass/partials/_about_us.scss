@@ -509,7 +509,8 @@
 
     .team_section {
       display: flex;
-      align-items: center;
+      // align-items: center;
+      align-items: baseline;
       flex-wrap: wrap;
       padding-top: 20px;
 
