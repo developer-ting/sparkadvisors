@@ -296,20 +296,6 @@
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
-                                <img src="dist/img/about/team_7.jpg" class="img-responsive" alt="">
-                                <h5>SATHYAJITH NANDAKUMAR</h5>
-                                <p>Director, Spark PWM<a target="_blank"
-                                        href="https://www.linkedin.com/in/sathyajith-nandakumar-6b762459">
-                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
-                            </div>
-                            <div class="team_section_1">
-                                <img src="dist/img/about/team_8.jpg" class="img-responsive" alt="">
-                                <h5>RAJ JAGDISH</h5>
-                                <p>Director, Spark PWM<a href="http://linkedin.com/in/raj-jagdish-88457b95"
-                                        target="_blank">
-                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
-                            </div>
-                            <div class="team_section_1">
                                 <img src="dist/img/about/team_9.jpg" class="img-responsive" alt="">
                                 <h5>VAISHVIK TOPRANI</h5>
                                 <p>Senior Director, Spark PWM<a
@@ -320,6 +306,20 @@
                                 <img src="dist/img/about/team_10.jpg" class="img-responsive" alt="">
                                 <h5>RANJIT RAJPUT</h5>
                                 <p>Director, Spark PWM<a href="https://www.linkedin.com/in/ranjitrajput"
+                                        target="_blank">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_7.jpg" class="img-responsive" alt="">
+                                <h5>SATHYAJITH NANDAKUMAR</h5>
+                                <p>Director, Spark PWM<a target="_blank"
+                                        href="https://www.linkedin.com/in/sathyajith-nandakumar-6b762459">
+                                        <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
+                            </div>
+                            <div class="team_section_1">
+                                <img src="dist/img/about/team_8.jpg" class="img-responsive" alt="">
+                                <h5>RAJ JAGDISH</h5><br />
+                                <p>Director, Spark PWM<a href="http://linkedin.com/in/raj-jagdish-88457b95"
                                         target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
