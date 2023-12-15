@@ -271,14 +271,14 @@
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_3.jpg" class="img-responsive" alt="">
                                 <h5>RAJESH K PARIKH</h5>
-                                <p>MD, Spark Private Wealth<a target="_blank"
+                                <p>MD, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEcytEj_X8CjQAAAYtB2MRYr5qVvumoWLAmzNqk0GKN3XHmWU1F5kXFk4JFKlWICxe-q2Kv-tQdtwzhA44Yca-yKLx5CnUEhjhzGiNRwDFzKk2ZL95IyTq_FY-WjpVGyCrPFV8=&original_referer=https://sparkadvisors.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frajesh-k-parikh-403b775%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
                                 <h5>VENKATESH P M</h5>
-                                <p>DMD, Spark Private Wealth<a target="_blank"
+                                <p>DMD, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/in/venkatesh-pongaliur-29b1886/"> <img
                                             src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
