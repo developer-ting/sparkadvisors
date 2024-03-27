@@ -331,14 +331,6 @@
                                         src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
                         </a>
                     </div>
-                    <div class="dwnld_item">
-                        <h4>SEBI – DIS – Issue Due Diligence and Off market Processing</h4>
-                        <a href="https://sparkadvisors.in/dist/img/regulatory/Advisory_for_investors.pdf" type="pdf"
-                            target="_blank">
-                            <button class="btn  " type="button">Download <span class="arrow"><img
-                                        src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- <div class="membership">
