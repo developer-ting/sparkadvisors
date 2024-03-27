@@ -138,7 +138,10 @@
                             href="https://smartodr.in/">https://smartodr.in/</a></p>
 
                 </div>
+                <br />
+                <br />
                 <div class="offer-doc">
+                    <h3>Downloads</h3>
                     <div class="grid_box">
                         <div class="grid_item">
                             <h4>Advisory for investors </h4>
@@ -316,7 +319,27 @@
                     <a href=" https://www.nseindia.com/trade/members-client-registration-documents"
                         target="_blank;">https://www.nseindia.com/trade/members-client-registration-documents</a>
                 </p>
-
+                <br />
+                <br />
+                <div class="irc_dwnlds">
+                    <h3>Important Regulatory Circulars</h3>
+                    <div class="dwnld_item">
+                        <h4>SEBI – DIS – Issue Due Diligence and Off market Processing</h4>
+                        <a href="https://sparkadvisors.in/dist/img/regulatory/Advisory_for_investors.pdf" type="pdf"
+                            target="_blank">
+                            <button class="btn  " type="button">Download <span class="arrow"><img
+                                        src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
+                        </a>
+                    </div>
+                    <div class="dwnld_item">
+                        <h4>SEBI – DIS – Issue Due Diligence and Off market Processing</h4>
+                        <a href="https://sparkadvisors.in/dist/img/regulatory/Advisory_for_investors.pdf" type="pdf"
+                            target="_blank">
+                            <button class="btn  " type="button">Download <span class="arrow"><img
+                                        src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
+                        </a>
+                    </div>
+                </div>
             </div>
             <!-- <div class="membership">
             <div class="container">
