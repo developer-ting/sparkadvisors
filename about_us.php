@@ -135,7 +135,7 @@
                                         target="_blank"
                                         rel="noopener noreferrer">https://www.linkedin.com/company/spark-wealth-advisors-private-limited/</a>
                                 </p>
-                                <p>Spark Asia Impact Pvt. Ltd. (Equity Asset Management) -
+                                <p>Spark Asia Impact Managers Pvt. Ltd. (Equity Asset Management) -
                                     <a href="https://www.linkedin.com/company/spark-fund-managers-private-limited/"
                                         target="_blank"
                                         rel="noopener noreferrer">https://www.linkedin.com/company/spark-fund-managers-private-limited/</a>

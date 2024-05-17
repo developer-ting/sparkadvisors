@@ -331,20 +331,14 @@
                                         src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
                         </a>
                     </div>
-                </div>
-                <div class="offer-doc links_new">
-                    <p>Advisory on Impersonation by Stock Exchanges:</p>
-
-                    <ol type="1">
-                        <li><a href="https://www.bseindia.com/markets/MarketInfo/MediaRelease.aspx" target="_blank"
-                                rel="noopener noreferrer">https://www.bseindia.com/markets/MarketInfo/MediaRelease.aspx</a>
-                            & <a href="https://www.bseindia.com/attention_investors.aspx" target="_blank"
-                                rel="noopener noreferrer">https://www.bseindia.com/attention_investors.aspx</a></li>
-                        <li>
-                            <a href="https://www.nseindia.com/" target="_blank" rel="noopener noreferrer">Advisory
-                                for Investors (nseindia.com)</a>
-                        </li>
-                    </ol>
+                    <div class="dwnld_item">
+                        <h4>Advisory on Impersonation by Stock Exchanges</h4>
+                        <a href="dist/img/regulatory/Advisory-on-Impersonation-by-Stock-Exchanges.pdf" type="pdf"
+                            target="_blank">
+                            <button class="btn  " type="button">Download <span class="arrow"><img
+                                        src="https://sparkcapital.in/dist/img/download-down.png" alt=""></span></button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- <div class="membership">
