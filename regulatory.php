@@ -332,6 +332,20 @@
                         </a>
                     </div>
                 </div>
+                <div class="offer-doc links_new">
+                    <p>Advisory on Impersonation by Stock Exchanges:</p>
+
+                    <ol type="1">
+                        <li><a href="https://www.bseindia.com/markets/MarketInfo/MediaRelease.aspx" target="_blank"
+                                rel="noopener noreferrer">https://www.bseindia.com/markets/MarketInfo/MediaRelease.aspx</a>
+                            & <a href="https://www.bseindia.com/attention_investors.aspx" target="_blank"
+                                rel="noopener noreferrer">https://www.bseindia.com/attention_investors.aspx</a></li>
+                        <li>
+                            <a href="https://www.nseindia.com/" target="_blank" rel="noopener noreferrer">Advisory
+                                for Investors (nseindia.com)</a>
+                        </li>
+                    </ol>
+                </div>
             </div>
             <!-- <div class="membership">
             <div class="container">

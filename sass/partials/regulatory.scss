@@ -426,3 +426,13 @@
     padding: 0;
   }
 }
+.links_new{
+  color: #fff;
+  ol{
+    list-style: number;
+    padding-left: 40px;
+    li{
+      padding-bottom: 5px;
+    }
+  }
+}

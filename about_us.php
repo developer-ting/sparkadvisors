@@ -32,7 +32,7 @@
             <!--  insert body content  -->
 
             <section id="about_us" class="about_us">
-                <div class="modal fade onload_modal" id="exampleModal" tabindex="-1" role="dialog"
+                <div class="modal fade onload_modal about_us_modal2" id="exampleModal" tabindex="-2" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -40,7 +40,7 @@
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                        </div> -->
+                            </div> -->
                             <div class="modal-body">
                                 <h4>RISK DISCLOSURES ON DERIVATIVES</h4>
                                 <ul>
@@ -65,12 +65,85 @@
                                         ACKNOWLEDGE</button>
                                 </div>
                                 <p class="source">Source:</p>
-                                <p><a target="_blank" href="https://www.sebi.gov.in/reports-and-statistics/research/jan-2023/study-analysis-of-profit-and-loss-of-individual-traders-dealing-in-equity-fando-segment_67525.html
-                        ">SEBI study dated January 25, 2023 on “Analysis of Profit and Loss of Individual Traders
+                                <p><a target="_blank"
+                                        href="https://www.sebi.gov.in/reports-and-statistics/research/jan-2023/study-analysis-of-profit-and-loss-of-individual-traders-dealing-in-equity-fando-segment_67525.html">
+                                        SEBI study dated January 25, 2023 on “Analysis of Profit and Loss of Individual
+                                        Traders
                                         dealing in equity Futures and Options (F&O) Segment”, wherein Aggregate Level
                                         findings are based on annual Profit/Loss incurred by individual traders in
                                         equity
                                         F&O during FY 2021-22</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade onload_modal about_us_modal" id="exampleModal2" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Public Notice </h4>
+                                <p>Spark Capital Group (<a target="_blank"
+                                        href="https://www.sparkcapital.in">www.sparkcapital.in</a>) is a two-decade old
+                                    mid-market financial
+                                    services franchise offering investment banking, asset management and private wealth
+                                    management solutions. Spark Capital Group and its affiliated entities are regulated
+                                    by SEBI.</p>
+                                <p>It has recently come to our attention that a group of unknown miscreants have formed
+                                    an unauthorized website, <a target="_blank"
+                                        href="https://www.sparkcapital11.com">www.sparkcapital11.com</a> impersonating
+                                    Spark
+                                    Capital's
+                                    official website and have also formed a WhatsApp group. </p>
+                                <p>We want to alert the general public that engaging with the aforementioned
+                                    (<a target="_blank"
+                                        href="https://www.sparkcapital11.com">www.sparkcapital11.com</a>)
+                                    fraudulent site, or any other platform and material
+                                    promoted by the imposters, poses a risk. We would also like to clarify that neither
+                                    Spark Capital, nor its affiliate entities are in any way associated with the said
+                                    website or the imposter. There could be other websites (in addition to the above)
+                                    which have not come to our notice but are criminally abusing our trade name to
+                                    defraud the general public. </p>
+                                <p>The general public should exercise caution and vigilance when interacting with this
+                                    fraudulent website or any other platforms associated with the imposters. Engaging
+                                    with such unauthorized entities may expose individuals to financial risks, data
+                                    breaches, and other fraudulent activities. </p>
+                                <p>Spark Capital encourages individuals to only access information, services, and
+                                    resources through the verified website, <a target="_blank"
+                                        href="https://www.sparkcapital.in">www.sparkcapital.in</a> to ensure the
+                                    security
+                                    and integrity of their investments and personal information.</p>
+                                <p>If you have any concerns or encounter suspicious activities related to Spark Capital,
+                                    we urge you to contact us immediately. We have already initiated steps to lodge
+                                    complaints including reporting to the Government and regulatory authorities.</p>
+                                <p>You can reach us via our official website or social media accounts:</p>
+                                <p>Website: <a target="_blank"
+                                        href="https://www.sparkcapital.in">www.sparkcapital.in</a></p>
+                                <p>LinkedIn:</p>
+                                <p>Spark Capital - <a href="https://www.linkedin.com/company/spark-investment-banking/"
+                                        target="_blank"
+                                        rel="noopener noreferrer">https://www.linkedin.com/company/spark-investment-banking/</a>
+                                </p>
+                                <p>Spark PWM Pvt. Ltd. –
+                                    <a href="https://www.linkedin.com/company/spark-wealth-advisors-private-limited/"
+                                        target="_blank"
+                                        rel="noopener noreferrer">https://www.linkedin.com/company/spark-wealth-advisors-private-limited/</a>
+                                </p>
+                                <p>Spark Asia Impact Pvt. Ltd. (Equity Asset Management) -
+                                    <a href="https://www.linkedin.com/company/spark-fund-managers-private-limited/"
+                                        target="_blank"
+                                        rel="noopener noreferrer">https://www.linkedin.com/company/spark-fund-managers-private-limited/</a>
+                                </p>
+                                <p>Spark Asia Impact Pvt. Ltd. (Alternative Asset Management) -
+                                    <a href="" target="_blank"
+                                        rel="noopener noreferrer">https://www.linkedin.com/company/spark-asia-impact-private-limited/</a>
+                                </p>
                             </div>
 
                         </div>
@@ -422,8 +495,17 @@
             <?php include("includes/include_js.html") ?>
             <?php include("includes/footer.html") ?>
             <script>
+            // $(document).ready(function() {
+            //     $('#exampleModal').modal('show');
+            // });
             $(document).ready(function() {
-                $('#exampleModal').modal('show');
+                // Show the first modal on page load
+                $('#exampleModal2').modal('show');
+
+                // When the first modal is closed, show the second modal
+                $('#exampleModal2').on('hidden.bs.modal', function() {
+                    $('#exampleModal').modal('show');
+                });
             });
             </script>
         </body>
