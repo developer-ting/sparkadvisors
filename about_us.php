@@ -32,7 +32,7 @@
             <!--  insert body content  -->
 
             <section id="about_us" class="about_us">
-                <div class="modal fade onload_modal about_us_modal2" id="exampleModal" tabindex="-2" role="dialog"
+                <div class="modal fade onload_modal about_us_modal2" id="exampleModal2" tabindex="-2" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal fade onload_modal about_us_modal" id="exampleModal2" tabindex="-1" role="dialog"
+                <div class="modal fade onload_modal about_us_modal" id="exampleModal3" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -144,6 +144,20 @@
                                     <a href="" target="_blank"
                                         rel="noopener noreferrer">https://www.linkedin.com/company/spark-asia-impact-private-limited/</a>
                                 </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade onload_modal about_us_modal2" id="exampleModal" tabindex="-3" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <picture>
+                                    <source media="(max-width:767px)" srcset="dist/img/about/mobile_banner.jpg">
+                                    <img src="dist/img/about/desktop_banner.jpg" class="img-responsive" alt="">
+                                </picture>
                             </div>
 
                         </div>
@@ -500,8 +514,14 @@
             // });
             $(document).ready(function() {
                 // Show the first modal on page load
-                $('#exampleModal2').modal('show');
+                $('#exampleModal3').modal('show');
+                // Show the first modal on page load
+                // $('#exampleModal2').modal('show');
 
+                // When the first modal is closed, show the second modal
+                $('#exampleModal3').on('hidden.bs.modal', function() {
+                    $('#exampleModal2').modal('show');
+                });
                 // When the first modal is closed, show the second modal
                 $('#exampleModal2').on('hidden.bs.modal', function() {
                     $('#exampleModal').modal('show');

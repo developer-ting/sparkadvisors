@@ -696,6 +696,14 @@
     }
   }
 }
+#exampleModal{
+  .modal-content{
+    padding: 0;
+    .modal-body{
+      padding: 0;
+    }
+  }
+}
 .about_us_modal{
   overflow-y: hidden !important;
   .modal-dialog{
