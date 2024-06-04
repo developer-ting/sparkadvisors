@@ -699,6 +699,10 @@
 #exampleModal{
   .modal-content{
     padding: 0;
+    @include mv-media(max, 767px) {
+      top: 50%;
+      transform: translateY(-50%);
+    }
     .modal-body{
       padding: 0;
     }
