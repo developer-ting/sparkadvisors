@@ -35,12 +35,12 @@
         text-align: center;
         color: $color-white;
         @include mv-media(max, 767px) {
-            font-size: 16px !important;
-            line-height: 1.4;
+          font-size: 16px !important;
+          line-height: 1.4;
         }
-    }
+      }
 
-    h1 {
+      h1 {
         font-size: 64px;
         line-height: 68px;
         font-family: $font_heading_light;
@@ -51,33 +51,33 @@
         text-transform: uppercase;
 
         @include mv-media(max, 767px) {
-            font-size: 30px !important;
-            line-height: 1.4;
+          font-size: 30px !important;
+          line-height: 1.4;
         }
-    }
+      }
 
-    ul {
+      ul {
         text-align: center;
 
         li {
-            padding: 0 5px;
+          padding: 0 5px;
+          display: inline-block;
+
+          img {
+            margin-right: 10px;
             display: inline-block;
+          }
 
-            img {
-                margin-right: 10px;
-                display: inline-block;
-            }
-
-            a {
-                font-size: 16px;
-                line-height: 20px;
-                font-family: $font_heading_light;
-                color: $color-white;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+          a {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
         }
-    }
+      }
     }
   }
 
@@ -218,8 +218,7 @@
           width: 100%;
         }
       }
-      h4{
-        
+      h4 {
         font-size: 22px;
         line-height: 26px;
         font-family: $font_heading_light;
@@ -520,12 +519,12 @@
         padding-top: 20px;
         justify-content: space-between;
       }
-      h5{
+      h5 {
         font-size: 22px;
         line-height: 26px;
         font-family: $font_heading_light;
       }
-      p{
+      p {
         font-size: 16px;
         line-height: 20px;
         font-family: $font_heading_light;
@@ -696,21 +695,21 @@
     }
   }
 }
-#exampleModal{
-  .modal-content{
+#exampleModal {
+  .modal-content {
     padding: 0;
     @include mv-media(max, 767px) {
       top: 50%;
       transform: translateY(-50%);
     }
-    .modal-body{
+    .modal-body {
       padding: 0;
     }
   }
 }
-.about_us_modal{
+.about_us_modal {
   overflow-y: hidden !important;
-  .modal-dialog{
+  .modal-dialog {
     height: calc(100vh - 50px);
     width: 900px;
     overflow-y: auto;
@@ -721,36 +720,36 @@
       height: calc(100vh - 40px);
       margin: 20px auto;
     }
-    .modal-content{
+    .modal-content {
       top: unset;
       transform: unset;
       @include mv-media(max, 768px) {
         overflow-x: hidden;
         padding: 10px;
       }
-      p{
-        a{
+      p {
+        a {
           display: inline-block;
         }
       }
     }
   }
-  .close{
+  .close {
     font-size: 30px;
     margin-top: -10px;
   }
 }
-.about_us_modal2{
+.about_us_modal2 {
   @include mv-media(max, 768px) {
     overflow-y: hidden !important;
   }
-  .modal-dialog{
+  .modal-dialog {
     @include mv-media(max, 768px) {
       height: calc(100vh - 40px);
       margin: 20px auto;
       overflow-y: auto;
     }
-    .modal-content{
+    .modal-content {
       @include mv-media(max, 768px) {
         top: unset;
         transform: unset;
@@ -832,6 +831,21 @@
           text-decoration: none;
         }
       }
+    }
+  }
+}
+
+.modal-content-pdf {
+  .modal-header {
+    min-height: 0;
+    padding: 0;
+    .close {
+      font-size: 40px;
+      position: absolute;
+      top: -38px;
+      text-shadow: none;
+      right: 0px;
+      color: #fff;
     }
   }
 }
