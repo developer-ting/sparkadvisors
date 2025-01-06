@@ -592,6 +592,9 @@
 .onload_modal {
   .modal-dialog {
     width: 800px;
+    @include mv-media(993px, 1024px) {
+      height: 85vh;
+    }
     @include mv-media(max, 767px) {
       width: 95%;
       margin: auto;
@@ -696,6 +699,12 @@
   }
 }
 #exampleModal {
+  .modal-dialog {
+    width: 500px;
+    @include mv-media(max, 767px) {
+      width: 95%;
+    }
+  }
   .modal-content {
     padding: 0;
     @include mv-media(max, 767px) {
@@ -744,6 +753,12 @@
     overflow-y: hidden !important;
   }
   .modal-dialog {
+    @include mv-media(768px, 1024px) {
+      overflow-y: unset !important;
+      height: calc(100vh - 120px) !important;
+      margin: 60px auto !important;
+      // height: 85vh !important;
+    }
     @include mv-media(max, 768px) {
       height: calc(100vh - 40px);
       margin: 20px auto;
