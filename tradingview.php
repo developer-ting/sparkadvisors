@@ -22,7 +22,7 @@
     <section id="privacy_policy" class="privacy_policy trading_view">
         <section class="first_section">
             <div class="container">
-                <h2>Trading View</h2>
+                <h2>TradingView</h2>
                 <p>
                     Experience professional-grade market analysis with Spark PWM's integration of TradingView's advanced
                     charting technology. Access comprehensive financial tools including:</p>
@@ -36,16 +36,15 @@
                     </li>
                     <li>
                         <p>
-                            A powerful stock screener <a href="https://www.tradingview.com/screener/">stock screener</a>
+                            A powerful <a href="https://www.tradingview.com/screener/">stock screener</a>
                             that
                             helps you identify investment opportunities across global markets using multiple criteria
                         </p>
                     </li>
                     <li>
                         <p>
-                            Real time economic calendar <a
-                                href="https://www.tradingview.com/economic-calendar/">real-time
-                                economic calendar</a> tracking major financial events, earnings releases, and economic
+                            <a href="https://www.tradingview.com/economic-calendar/">Real time economic calendar </a>
+                            tracking major financial events, earnings releases, and economic
                             indicators that
                             impact your investments
                         </p>
