@@ -347,7 +347,7 @@
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_1.jpg" class="img-responsive" alt="">
                                 <h5>GANASHYAM S</h5>
-                                <p>MD & CEO, Spark PWM
+                                <p>Sr. Managing Director & Co-CEO, Spark PWM
                                     <a target="_blank"
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGijANU6CxVSQAAAYtBy5Fw8oSNsPnXlDTc5_m7WExXWXKRlSbuNA2dfF9nVkUWLkLj4iviwvXHCqQhwTl_l_VF7t3kwO021XTbJHx3a9A0qT62SGkLLAp8Xd8OIqXD7pkaOFQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fganashyam-s-2537536">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
@@ -356,70 +356,71 @@
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_2.jpg" class="img-responsive" alt="">
                                 <h5>ARPITA VINAY</h5>
-                                <p>MD & CEO, Spark PWM<a target="_blank"
+                                <p>Sr. Managing Director & Co-CEO, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE3lK9Ib1jL_QAAAYtBzKLgIHFWBvvSs3WVPlMUCQZV17Z5aLddAhLSXY9KhkwBPwdGrF_JJxiL8IwK0lzcndnoEiFoV1ge0KBkw8afG1CJgSRxSMfNdQYn-J51zhxDXCfsfPc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Farpita-vinay-658b4b22%3Flipi%3Durn%253Ali%253Apage%253Ad_flagship3_profile_view_base_contact_details%253B3A1iUfBITByExfQn5SBlvg%253D%253D">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a>
                                 </p>
                             </div>
-                            <div class="team_section_1">
+                            <!-- <div class="team_section_1">
                                 <img src="dist/img/about/team_3.jpg" class="img-responsive" alt="">
                                 <h5>RAJESH K PARIKH</h5>
                                 <p>MD, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEcytEj_X8CjQAAAYtB2MRYr5qVvumoWLAmzNqk0GKN3XHmWU1F5kXFk4JFKlWICxe-q2Kv-tQdtwzhA44Yca-yKLx5CnUEhjhzGiNRwDFzKk2ZL95IyTq_FY-WjpVGyCrPFV8=&original_referer=https://sparkadvisors.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frajesh-k-parikh-403b775%2F">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
-                            </div>
+                            </div> -->
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_4.jpg" class="img-responsive" alt="">
                                 <h5>VENKATESH P M</h5>
-                                <p>DMD, Spark PWM<a target="_blank"
+                                <p>Managing Director, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/in/venkatesh-pongaliur-29b1886/"> <img
                                             src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_11.jpg" class="img-responsive" alt="">
-                                <h5>Kishore Rijhwani</h5>
-                                <p>Senior Director, Spark PWM<a target="_blank"
+                                <h5>KISHORE RIJHWANI</h5>
+                                <p>Managing Director, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/in/kishore-rijhwani-124ba71?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_5.jpg" class="img-responsive" alt="">
                                 <h5>ANIMESH RAIZADA</h5>
-                                <p>COO, Spark PWM<a href="https://www.linkedin.com/in/animesh-raizada" target="_blank">
+                                <p>Chief Operating Officer, Spark PWM<a
+                                        href="https://www.linkedin.com/in/animesh-raizada" target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_6.jpg" class="img-responsive" alt="">
                                 <h5>AMIT RATHI</h5>
-                                <p>Senior Director, Spark PWM<a href="https://www.linkedin.com/in/amit-rathi-26a53750"
+                                <p>Managing Director, Spark PWM<a href="https://www.linkedin.com/in/amit-rathi-26a53750"
                                         target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_9.jpg" class="img-responsive" alt="">
                                 <h5>VAISHVIK TOPRANI</h5>
-                                <p>Senior Director, Spark PWM<a
+                                <p>Dy Managing Director, Spark PWM<a
                                         href="https://www.linkedin.com/in/vaishvik-toprani-111793227" target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_10.jpg" class="img-responsive" alt="">
                                 <h5>RANJIT RAJPUT</h5>
-                                <p>Director, Spark PWM<a href="https://www.linkedin.com/in/ranjitrajput"
+                                <p>Senior Director, Spark PWM<a href="https://www.linkedin.com/in/ranjitrajput"
                                         target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_7.jpg" class="img-responsive" alt="">
                                 <h5>SATHYAJITH NANDAKUMAR</h5>
-                                <p>Director, Spark PWM<a target="_blank"
+                                <p>Dy Managing Director, Spark PWM<a target="_blank"
                                         href="https://www.linkedin.com/in/sathyajith-nandakumar-6b762459">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
                             <div class="team_section_1">
                                 <img src="dist/img/about/team_8.jpg" class="img-responsive" alt="">
                                 <h5>RAJ JAGDISH</h5><br />
-                                <p>Director, Spark PWM<a href="http://linkedin.com/in/raj-jagdish-88457b95"
+                                <p>Executive Director, Spark PWM<a href="http://linkedin.com/in/raj-jagdish-88457b95"
                                         target="_blank">
                                         <img src="dist/img/about/link.png" class="img-responsive" alt=""></a></p>
                             </div>
