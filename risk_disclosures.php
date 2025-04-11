@@ -22,9 +22,9 @@
         <section id="risk_disclosures" class="privacy_policy">
             <section class="first_section">
                 <div class="container">
-                    <div class="LogoImgBx">
+                    <!-- <div class="LogoImgBx">
                         <img src="dist/img/risk_disclosures/SEBI_Logo.png" class="LogoImg img-responsive" alt="">
-                    </div>
+                    </div> -->
                     <!-- <h2>Annexure-I: Risk disclosures</h2> -->
                     <h2>RISK DISCLOSURES ON DERIVATIVES</h2>
                     <ul>
