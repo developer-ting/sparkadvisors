@@ -1,174 +1,248 @@
 #contact {
-    padding-top: 70px;
+  padding-top: 70px;
 
-    @include mv-media(max, 767px) {
-        padding-top: 60px;
-    }
+  @include mv-media(max, 767px) {
+    padding-top: 60px;
+  }
 
-    .banner {
-        height: 40vh;
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url(../img/regulatory/banner_contact.jpg);
+  .banner {
+    height: 40vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/regulatory/banner_contact.jpg);
 
-        .banner_text {
-            top: 50%;
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%, -50%);
+    .banner_text {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
 
-            @include mv-media(max, 992px) {
-                width: 100%;
-            }
+      @include mv-media(max, 992px) {
+        width: 100%;
+      }
 
-            h5 {
-                font-size: 22px;
-                line-height: 26px;
-                font-family: "PublicSans_Light";
-                text-align: center;
-                color: $color-white;
-                @include mv-media(max, 767px) {
-                    font-size: 16px !important;
-                    line-height: 1.4;
-                }
-            }
-        
-            h1 {
-                font-size: 64px;
-                line-height: 68px;
-                font-family: $font_heading_light;
-                text-align: center;
-                position: relative;
-                color: $color-white;
-                margin: 15px 0 30px 0;
-                text-transform: uppercase;
-        
-                @include mv-media(max, 767px) {
-                    font-size: 30px !important;
-                    line-height: 1.4;
-                }
-            }
-        
-            ul {
-                text-align: center;
-        
-                li {
-                    padding: 0 5px;
-                    display: inline-block;
-        
-                    img {
-                        margin-right: 10px;
-                        display: inline-block;
-                    }
-        
-                    a {
-                        font-size: 16px;
-                        line-height: 20px;
-                        font-family: $font_heading_light;
-                        color: $color-white;
-                        text-decoration: none;
-                        text-transform: uppercase;
-                    }
-                }
-            }
+      h5 {
+        font-size: 22px;
+        line-height: 26px;
+        font-family: "PublicSans_Light";
+        text-align: center;
+        color: $color-white;
+        @include mv-media(max, 767px) {
+          font-size: 16px !important;
+          line-height: 1.4;
         }
-    }
+      }
 
-    .contact_form {
-        padding: 40px 0 60px 0;
+      h1 {
+        font-size: 64px;
+        line-height: 68px;
+        font-family: $font_heading_light;
+        text-align: center;
+        position: relative;
+        color: $color-white;
+        margin: 15px 0 30px 0;
+        text-transform: uppercase;
 
         @include mv-media(max, 767px) {
-            padding: 30px 0;
+          font-size: 30px !important;
+          line-height: 1.4;
         }
+      }
 
-        .contact_form_section {
-            width: 80%;
-            margin: auto;
+      ul {
+        text-align: center;
 
-            @include mv-media(max, 767px) {
-                width: 100%;
-            }
+        li {
+          padding: 0 5px;
+          display: inline-block;
 
-            .send_msg {
-                font-size: 32px;
-                line-height: 36px;
-                font-family: "PublicSans_Light";
-                width: 80%;
-                margin: auto;
-                color: #202020;
-                // font-size: 30px;
-                padding-left: 15px;
-                margin: 15px 0 50px 0;
-                // font-family: $font_heading_bold;
+          img {
+            margin-right: 10px;
+            display: inline-block;
+          }
 
-                @include mv-media(max, 767px) {
-                    font-size: 20px !important;
-                    margin: 10px 0 30px 0;
-                }
-            }
-
-            .contact_page_form {
-                .form-group {
-                    margin-bottom: 30px;
-
-                    input {
-                        font-size: 16px;
-                        line-height: 20px;
-                        font-family: $font_heading_light;
-                        margin-left: 0;
-                        border-bottom: 0;
-                        padding-left: 15px;
-                        border: 1px solid #9e9e9e;
-                        &::placeholder{
-                            text-transform: uppercase;
-                        }
-                        &.input_width {
-                            width: 96%;
-                        }
-                    }
-                    textarea{
-                        font-size: 16px;
-                        line-height: 20px;
-                        font-family: $font_heading_light;
-                    }
-                }
-
-                .button_section {
-                    margin-top: 20px;
-                    text-align: center;
-
-                    @include mv-media(max, 992px) {
-                        margin-top: 30px;
-                    }
-
-                    .log_in_btn {
-                        border: 0;
-                        padding: 12px 50px;
-                        color: $color-white;
-                        // letter-spacing: 1.5px;
-                        background-color: #206396;
-                        // font-family: $font_heading_regular;
-                    }
-                }
-            }
+          a {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
         }
+      }
+    }
+  }
+
+  .contact_form {
+    padding: 40px 0 60px 0;
+
+    @include mv-media(max, 767px) {
+      padding: 30px 0;
     }
 
-    .button_section{
-        padding-bottom: 50px;
-        .register_btn{
-            .log_in_btn {
-                border: 0;
-                // font-size: 17px;
-                padding: 12px 50px;
-                color: $color-white;
-                // letter-spacing: 1.5px;
-                text-decoration: none;
-                background-color: #206396;
-                // font-family: $font_heading_regular;
-            }
+    .contact_form_section {
+      width: 80%;
+      margin: auto;
+
+      @include mv-media(max, 767px) {
+        width: 100%;
+      }
+
+      .send_msg {
+        font-size: 32px;
+        line-height: 36px;
+        font-family: "PublicSans_Light";
+        width: 80%;
+        margin: auto;
+        color: #202020;
+        // font-size: 30px;
+        padding-left: 15px;
+        margin: 15px 0 50px 0;
+        // font-family: $font_heading_bold;
+
+        @include mv-media(max, 767px) {
+          font-size: 20px !important;
+          margin: 10px 0 30px 0;
         }
+      }
+
+      .contact_page_form {
+        .FormFlex {
+          display: flex;
+          flex-wrap: wrap;
+          .col-md-4 {
+            @media screen and (max-width: 992px) {
+              width: 50%;
+            }
+            @media screen and (max-width: 767px) {
+              width: 100%;
+            }
+          }
+          .SelectTitle {
+            @media screen and (max-width: 992px) {
+              width: 100%;
+            }
+            .form-group {
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .form-group {
+          margin-bottom: 30px;
+
+          input {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            margin-left: 0;
+            border-bottom: 0;
+            padding-left: 15px;
+            border: 1px solid #9e9e9e;
+            margin-bottom: 10px;
+            &::placeholder {
+              text-transform: uppercase;
+            }
+            &.input_width {
+              width: 96%;
+            }
+          }
+          textarea {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            border-radius: 0;
+            &::placeholder {
+              text-transform: uppercase;
+            }
+          }
+          select {
+            text-transform: uppercase;
+            display: block;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            margin-left: 0;
+            border-bottom: 0;
+            padding-left: 15px;
+            border: 1px solid #9e9e9e;
+            border-radius: 0;
+            height: 3rem;
+            color: #000;
+            margin-bottom: 10px;
+            &::placeholder {
+              text-transform: uppercase;
+            }
+            &.input_width {
+              width: 100%;
+            }
+            option {
+              text-transform: uppercase;
+            }
+          }
+          p {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_heading_light;
+            height: 3rem;
+            padding: 12px 0;
+            text-transform: uppercase;
+            @media screen and (max-width: 1199px) {
+              padding: 0;
+            }
+            @media screen and (max-width: 992px) {
+              height: auto;
+            }
+          }
+        }
+
+        .button_section {
+          margin-top: 20px;
+          text-align: center;
+
+          @include mv-media(max, 992px) {
+            margin-top: 30px;
+          }
+
+          .log_in_btn {
+            border: 0;
+            padding: 12px 50px;
+            color: $color-white;
+            // letter-spacing: 1.5px;
+            background-color: #206396;
+            // font-family: $font_heading_regular;
+          }
+        }
+      }
     }
+  }
+
+  .button_section {
+    padding-bottom: 50px;
+    .register_btn {
+      .log_in_btn {
+        border: 0;
+        // font-size: 17px;
+        padding: 12px 50px;
+        color: $color-white;
+        // letter-spacing: 1.5px;
+        text-decoration: none;
+        background-color: #206396;
+        // font-family: $font_heading_regular;
+      }
+    }
+  }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
