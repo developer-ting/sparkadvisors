@@ -37,7 +37,7 @@
                     <div class="col-md-12 no_padd">
                         <div class="contact_form_section">
                             <h2 class="send_msg">SEND MESSAGE</h2>
-                            <form action="#" method="post" id="contact_page_form" class="contact_page_form">
+                            <form id="contact_page_form" action="" class="contact_page_form">
                                 <div class="FormFlex">
                                     <div class="col-md-4">
                                         <div class="form-group">
@@ -47,8 +47,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input type="email" class="form-control input_width" name="user_id"
-                                                id="user_id" placeholder="Email Address*">
+                                            <input type="email" class="form-control input_width" name="email" id="email"
+                                                placeholder="Email Address*">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -109,6 +109,7 @@
                                     <button type="submit" class="log_in_btn">SUBMIT</button>
                                 </div>
                             </form>
+                            <div id="thankyou" class="hidden">Thanks</div>
                         </div>
                     </div>
                 </div>
@@ -129,6 +130,8 @@
     <!--  end body content -->
     <?php include("includes/include_js.html") ?>
     <?php include("includes/footer.html") ?>
+    <script defer type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
     const mainCategory = document.getElementById("mainCategory");
     const subCategory = document.getElementById("subCategory");
@@ -215,6 +218,15 @@
     });
     </script> -->
     <script>
+    //for letters only
+    $.validator.addMethod("lettersonly", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z][a-zA-Z ]+$/i.test(value);
+    });
+
+    //for email only
+    $.validator.addMethod("emailtest", function(value, element) {
+        return this.optional(element) || /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/i.test(value);
+    });
     $("#contact_page_form").validate({
         rules: {
             name: {
@@ -222,7 +234,7 @@
                 minlength: 2,
                 lettersonly: true
             },
-            user_id: {
+            email: {
                 required: true,
                 email: true
             },
@@ -245,9 +257,9 @@
             mainCategory: {
                 required: true
             },
-            subCategory: {
-                required: true
-            }
+            // subCategory: {
+            //     required: true
+            // }
         },
         messages: {
             name: {
@@ -255,7 +267,7 @@
                 minlength: 'Enter at least two characters',
                 lettersonly: 'Must contain letters only'
             },
-            user_id: {
+            email: {
                 required: 'This field is required',
                 email: 'Please enter a valid email address'
             },
@@ -277,9 +289,35 @@
             mainCategory: {
                 required: 'Please select a business category'
             },
-            subCategory: {
-                required: 'Please select a sub-category'
-            }
+            // subCategory: {
+            //     required: 'Please select a sub-category'
+            // }
+        },
+        submitHandler: function(form) {
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzyG_J53KscXM3wqruNAACS1tcHbJoLWw5Hs3E3uGxka-2bA-tZxOCX2ZVHCtCoQ_RJ/exec",
+                type: 'post',
+                data: $("#contact_page_form").serializeArray(),
+                success: function($response) {
+                    $('#thankyou').removeClass('hidden');
+                    // $('body').css({
+                    //     "overflow": "hidden",
+                    //     "position": "relative"
+                    // });
+                    $('#contact_page_form')[0].reset();
+                    setTimeout(function() {
+                        $('#thankyou').addClass('hidden');
+                        // $('body').css({
+                        //     "overflow": "unset",
+                        //     "position": "unset"
+                        // });
+                    }, 5000);
+                },
+                error: function() {
+                    alert("There was an error. PLease try again.")
+                }
+            });
+
         }
     });
     </script>
