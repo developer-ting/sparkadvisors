@@ -38,45 +38,77 @@
                         <div class="contact_form_section">
                             <h2 class="send_msg">SEND MESSAGE</h2>
                             <form action="#" method="post" id="contact_page_form" class="contact_page_form">
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control input_width" name="name" id="name"
-                                            placeholder="full name">
+                                <div class="FormFlex">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input_width" name="name" id="name"
+                                                placeholder="Full Name*">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control input_width" name="email" id="email"
-                                            placeholder="EMAIL ADDRESS">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control input_width" name="user_id"
+                                                id="user_id" placeholder="Email Address*">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <input id="subject" type="text" class="form-control input_width" name="subject"
-                                            placeholder="SUBJECT">
-                                        <!--                                            <input type="text" class="form-control" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="number" type="number" class="form-control input_width"
+                                                name="number" placeholder="Contact Number*">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <input id="number" type="number" class="form-control input_width" name="number"
-                                            placeholder="Mobile Number">
-                                        <!--                                            <input type="text" class="form-control" name="new_password" id="new_password" placeholder="PLEASE ENTER NEW PASSWORD">-->
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="company" type="text" class="form-control input_width"
+                                                name="company" placeholder="Name of Company / Family*">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="city" type="text" class="form-control input_width" name="city"
+                                                placeholder="City*">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 hidden-xs">
+                                        <div class="form-group">
+                                            <!-- <p>Interested in Select Business</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 SelectTitle">
+                                        <div class="form-group">
+                                            <p>Interested in Select Business</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <select id="mainCategory" class="form-control input_width"
+                                                name="mainCategory">
+                                                <option value="">-- Select Business --</option>
+                                                <option value="investment">Investment Banking</option>
+                                                <option value="assets">Assets Management</option>
+                                                <option value="wealth">Private Wealth Management</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <select id="subCategory" class="form-control input_width"
+                                                name="subCategory">
+                                                <option value="">-- Select Option --</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group" colspan="5">
                                         <textarea class="form-control" rows="4" name="comment"
-                                            placeholder="COMMENT"></textarea>
+                                            placeholder="Comments"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12 button_section">
                                     <button type="submit" class="log_in_btn">SUBMIT</button>
                                 </div>
                             </form>
-                            <div class="thankyou hidden">
-                                thanks
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,8 +129,46 @@
     <!--  end body content -->
     <?php include("includes/include_js.html") ?>
     <?php include("includes/footer.html") ?>
-
     <script>
+    const mainCategory = document.getElementById("mainCategory");
+    const subCategory = document.getElementById("subCategory");
+
+    const options = {
+        investment: [
+            "Technology and Services",
+            "Industrials, Logistics & Infra",
+            "Health Care and Pharma",
+            "Consumer Products and Services",
+            "Banking, Financial Services and Insurance",
+            "Structured Debt Finance"
+        ],
+        assets: [],
+        wealth: [
+            "Personal Wealth Advisory (₹ 5 Cr to ₹ 100 Cr)",
+            "Family Office Advisory (₹ 100 Cr & Above)"
+        ]
+    };
+
+    mainCategory.addEventListener("change", function() {
+        const selected = this.value;
+        subCategory.innerHTML = "";
+
+        if (options[selected] && options[selected].length > 0) {
+            options[selected].forEach(function(item) {
+                const opt = document.createElement("option");
+                opt.value = item;
+                opt.textContent = item;
+                subCategory.appendChild(opt);
+            });
+        } else {
+            const opt = document.createElement("option");
+            opt.value = "";
+            opt.textContent = "-- No options available --";
+            subCategory.appendChild(opt);
+        }
+    });
+    </script>
+    <!-- <script>
     $("#contact_page_form").validate({
         rules: {
             name: {
@@ -106,7 +176,7 @@
                 minlength: 2,
                 lettersonly: true
             },
-            email: {
+            user_id: {
                 required: true,
                 email: true
             },
@@ -142,30 +212,74 @@
             }
 
         }
-        submitHandler: function(form) {
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbzyG_J53KscXM3wqruNAACS1tcHbJoLWw5Hs3E3uGxka-2bA-tZxOCX2ZVHCtCoQ_RJ/exec",
-                type: 'post',
-                data: $("#contact_page_form").serializeArray(),
-                success: function($response) {
-                    $('#thankyou').removeClass('hidden');
-                    // $('body').css({
-                    //     "overflow": "hidden",
-                    //     "position": "relative"
-                    // });
-                    $('#contact_page_form')[0].reset();
-                    setTimeout(function() {
-                        $('#thankyou').addClass('hidden');
-                        // $('body').css({
-                        //     "overflow": "unset",
-                        //     "position": "unset"
-                        // });
-                    }, 5000);
-                },
-                error: function() {
-                    alert("There was an error. PLease try again.")
-                }
-            });
+    });
+    </script> -->
+    <script>
+    $("#contact_page_form").validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 2,
+                lettersonly: true
+            },
+            user_id: {
+                required: true,
+                email: true
+            },
+            number: {
+                required: true,
+                digits: true,
+                minlength: 10,
+                maxlength: 10
+            },
+            company: {
+                required: true
+            },
+            city: {
+                required: true,
+                lettersonly: true
+            },
+            comment: {
+                required: true
+            },
+            mainCategory: {
+                required: true
+            },
+            subCategory: {
+                required: true
+            }
+        },
+        messages: {
+            name: {
+                required: 'This field is required',
+                minlength: 'Enter at least two characters',
+                lettersonly: 'Must contain letters only'
+            },
+            user_id: {
+                required: 'This field is required',
+                email: 'Please enter a valid email address'
+            },
+            number: {
+                required: 'This field is required',
+                digits: 'Enter numbers only',
+                minlength: 'Number too short'
+            },
+            company: {
+                required: 'This field is required'
+            },
+            city: {
+                required: 'This field is required',
+                lettersonly: 'Must contain letters only'
+            },
+            comment: {
+                required: 'This field is required'
+            },
+            mainCategory: {
+                required: 'Please select a business category'
+            },
+            subCategory: {
+                required: 'Please select a sub-category'
+            }
         }
     });
     </script>
