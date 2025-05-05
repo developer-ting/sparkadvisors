@@ -299,14 +299,14 @@
                 type: 'post',
                 data: $("#contact_page_form").serializeArray(),
                 success: function($response) {
-                    $('#thankyou').removeClass('hidden');
+                    window.location.href = "thank-you.php";
                     // $('body').css({
                     //     "overflow": "hidden",
                     //     "position": "relative"
                     // });
                     $('#contact_page_form')[0].reset();
                     setTimeout(function() {
-                        $('#thankyou').addClass('hidden');
+                        // $('#thankyou').addClass('hidden');
                         // $('body').css({
                         //     "overflow": "unset",
                         //     "position": "unset"
