@@ -300,18 +300,7 @@
                 data: $("#contact_page_form").serializeArray(),
                 success: function($response) {
                     window.location.href = "thank-you.php";
-                    // $('body').css({
-                    //     "overflow": "hidden",
-                    //     "position": "relative"
-                    // });
                     $('#contact_page_form')[0].reset();
-                    setTimeout(function() {
-                        // $('#thankyou').addClass('hidden');
-                        // $('body').css({
-                        //     "overflow": "unset",
-                        //     "position": "unset"
-                        // });
-                    }, 5000);
                 },
                 error: function() {
                     alert("There was an error. PLease try again.")
