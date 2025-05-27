@@ -51,6 +51,54 @@
     }
   }
 }
+#press_release {
+  padding-top: 70px;
+
+  @include mv-media(max, 767px) {
+    padding-top: 60px;
+  }
+  .first_section {
+    padding: 40px 0;
+    h2 {
+      font-size: 64px;
+      line-height: 68px;
+      font-family: $font_heading_light;
+      color: $color_secondary2;
+      text-align: center;
+      padding-bottom: 30px;
+      text-transform: uppercase;
+      @include mv-media(max, 767px) {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    }
+    p {
+      font-size: 22px;
+      line-height: 26px;
+      font-family: $font_heading_light;
+      color: #000;
+      padding-bottom: 18px;
+      @include mv-media(max, 767px) {
+        font-size: 18px;
+        line-height: 22px;
+      }
+      span {
+        font-weight: 800;
+        // color: $color_secondary2;
+      }
+    }
+    h4 {
+      font-size: 32px;
+      line-height: 36px;
+      font-family: $font_heading_light;
+      color: $color_secondary2;
+      @include mv-media(max, 767px) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+}
 .trading_view {
   ul {
     padding-inline-start: 25px;
