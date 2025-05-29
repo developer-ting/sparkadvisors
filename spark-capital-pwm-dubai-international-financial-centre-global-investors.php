@@ -45,7 +45,7 @@
                     </ul>
 
                     <p>
-                        <span>Dubai, UAE: XX May 2025</span> – Spark Capital Private Wealth Management (Spark
+                        <span>Dubai, UAE: 2nd June 2025</span> – Spark Capital Private Wealth Management (Spark
                         Capital PWM), today
                         announced the launch of its operations in Dubai International Financial Centre (DIFC), the
                         leading
@@ -63,8 +63,8 @@
                     <p>
                         Spark Capital PWM has significantly focused on growth &amp; expansion in recent years. Its AUM
                         &amp; AUA
-                        has grown nearly 9x—from INR ~3,000 crores (~360.24 million USD) in April 2023 to INR 30,000
-                        crores (~3.53 billion USD) in May 2025. The firm has also scaled its team from 60 to over 400
+                        has grown nearly 10x—from INR ~3,000 crores (~360.24 million USD) in April 2023 to INR 30,000
+                        crores (~3.6 billion USD) in May 2025. The firm has also scaled its team from 60 to over 400
                         professionals, including 130+ seasoned relationship managers, and established a pan-India
                         presence across 12 cities.
                     </p>
