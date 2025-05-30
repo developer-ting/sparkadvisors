@@ -25,8 +25,8 @@
                 <h4>Spark Capital PWM establishes strategic presence in
                     Dubai International Financial Centre to serve global investors</h4>
                 <div class="flexBox">
-                    <img src="/img/dubai/img1.jpg" alt="DIFC office" />
-                    <img src="/img/dubai/img2.jpg" alt="DIFC logo" />
+                    <img src="dist/img/dubai/img1.jpg" alt="DIFC office" />
+                    <img src="dist/img/dubai/img2.jpg" alt="DIFC logo" />
                 </div>
                 <ul>
                     <li>
@@ -73,7 +73,7 @@
                     presence across 12 cities.
                 </p>
                 <div class="arpitaSection">
-                    <img src="/img/dubai/Arpita.jpg" alt="arpita" />
+                    <img src="dist/img/dubai/Arpita.jpg" alt="arpita" />
                     <p>
                         Commenting on the expansion, <span>Arpita Vinay, Senior Managing
                             Director &amp; Co-CEO, Spark Capital Private Wealth Management
