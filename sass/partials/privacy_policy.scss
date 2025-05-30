@@ -111,6 +111,7 @@
   .flexBox {
     display: flex;
     padding: 30px 0px;
+    align-items: center;
 
     @media (max-width: 767px) {
       flex-direction: column;
@@ -140,7 +141,7 @@
     img {
       width: 30%;
 
-      @media (max-width: 767px) {
+      @media (max-width: 991px) {
         width: 100%;
       }
     }
