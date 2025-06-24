@@ -159,8 +159,8 @@
                         </div>
                         <div class="modal-body">
                             <picture>
-                                <source media="(max-width:767px)" srcset="dist/img/about/desktop_banner1.jpg">
-                                <img src="dist/img/about/desktop_banner1.jpg" class="img-responsive" alt="">
+                                <source media="(max-width:767px)" srcset="dist/img/about/pop_up_6.jpg">
+                                <img src="dist/img/about/pop_up_6.jpg" class="img-responsive" alt="">
                             </picture>
                         </div>
 

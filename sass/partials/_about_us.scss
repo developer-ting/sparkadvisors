@@ -700,7 +700,10 @@
 }
 #exampleModal {
   .modal-dialog {
-    width: 500px;
+    width: 1200px;
+    @media (max-width: 1024px) {
+      width: 95%;
+    }
     @include mv-media(max, 767px) {
       width: 95%;
     }
