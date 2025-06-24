@@ -756,6 +756,7 @@
     overflow-y: hidden !important;
   }
   .modal-dialog {
+    width: 500px;
     @include mv-media(768px, 1024px) {
       overflow-y: unset !important;
       height: calc(100vh - 120px) !important;
@@ -766,15 +767,46 @@
       height: calc(100vh - 40px);
       margin: 20px auto;
       overflow-y: auto;
+      width: 90%;
     }
     .modal-content {
+      padding: 15px;
       @include mv-media(max, 768px) {
         top: unset;
         transform: unset;
       }
+      .modal-body {
+        @include mv-media(max, 768px) {
+          padding: 0;
+        }
+      }
     }
   }
 }
+// .about_us_modal2 {
+//   @include mv-media(max, 768px) {
+//     overflow-y: hidden !important;
+//   }
+//   .modal-dialog {
+//     @include mv-media(768px, 1024px) {
+//       overflow-y: unset !important;
+//       height: calc(100vh - 120px) !important;
+//       margin: 60px auto !important;
+//       // height: 85vh !important;
+//     }
+//     @include mv-media(max, 768px) {
+//       height: calc(100vh - 40px);
+//       margin: 20px auto;
+//       overflow-y: auto;
+//     }
+//     .modal-content {
+//       @include mv-media(max, 768px) {
+//         top: unset;
+//         transform: unset;
+//       }
+//     }
+//   }
+// }
 #popUpForm {
   width: 100%;
   margin: auto;
