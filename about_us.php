@@ -546,16 +546,16 @@
                 // Show the first modal on page load
                 // $('#exampleModal3').modal('show');
                 // Show the first modal on page load
-                $('#exampleModal2').modal('show');
+                //$('#exampleModal2').modal('show');
 
                 // When the first modal is closed, show the second modal
                 // $('#exampleModal3').on('hidden.bs.modal', function() {
                 //     $('#exampleModal2').modal('show');
                 // });
                 // When the first modal is closed, show the second modal
-                $('#exampleModal2').on('hidden.bs.modal', function() {
-                    $('#exampleModal').modal('show');
-                });
+                //$('#exampleModal2').on('hidden.bs.modal', function() {
+                // $('#exampleModal').modal('show');
+                //});
             });
             </script>
         </body>
